@@ -30,6 +30,7 @@ QBConfig.Server.CheckDuplicateLicense = true -- Check for duplicate rockstar lic
 QBConfig.Server.Permissions = { 'god', 'admin', 'mod' } -- Add as many groups as you want here after creating them in your server.cfg
 
 QBConfig.Notify = {}
+QBConfig.OkOkNotify = true -- Added OkOkNotify
 
 QBConfig.Notify.NotificationStyling = {
     group = false, -- Allow notifications to stack with a badge instead of repeating
