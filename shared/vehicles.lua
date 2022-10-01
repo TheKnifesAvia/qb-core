@@ -1216,7 +1216,7 @@ QBShared.Vehicles = {
 		['brand'] = 'Dodge ',
 		['model'] = 'demon',
 		['price'] = 32000,
-		['category'] = 'super',
+		['category'] = 'sport',
 		['hash'] = `demon`,
 		['shop'] = 'luxury',
 	},
