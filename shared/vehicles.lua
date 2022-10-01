@@ -2,7 +2,25 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
-	['vwcaddy'] = {
+	['panamera21'] = {
+		['name'] = 'Porsche Panamera',
+		['brand'] = 'Porsche',
+		['model'] = 'panamera21',
+		['price'] = 95000,
+		['category'] = 'super',
+		['hash'] = `panamera21`,
+		['shop'] = 'luxury',
+	},
+    ['rs6avant20'] = {
+		['name'] = 'Audi RS6 Avant',
+		['brand'] = 'Audi',
+		['model'] = 'rs6avant20',
+		['price'] = 45000,
+		['category'] = 'vans',
+		['hash'] = `rs6avant20`,
+		['shop'] = 'pdm',
+	},
+    ['vwcaddy'] = {
 		['name'] = 'Caddy',
 		['brand'] = 'Volkswagon',
 		['model'] = 'vwcaddy',
@@ -75,7 +93,25 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
-	['amarok'] = {
+	['ocnetrongt'] = {
+		['name'] = 'Audi Etron',
+		['brand'] = 'Audi',
+		['model'] = 'ocnetrongt',
+		['price'] = 99999999,
+		['category'] = 'sedans',
+		['hash'] = `ocnetrongt`,
+		['shop'] = 'pdm',
+	},
+    ['rmodi8mlb'] = {
+		['name'] = 'BMW I8 RMOD',
+		['brand'] = 'BMW',
+		['model'] = 'rmodi8mlb',
+		['price'] = 99999999,
+		['category'] = 'sedans',
+		['hash'] = `rmodi8mlb`,
+		['shop'] = 'pdm',
+	},
+    ['amarok'] = {
 		['name'] = 'Amarok',
 		['brand'] = 'VW',
 		['model'] = 'amarok',
@@ -663,7 +699,7 @@ QBShared.Vehicles = {
 		['name'] = 'RS6',
 		['brand'] = 'Audi',
 		['model'] = 'rs6',
-		['price'] = 22000,
+		['price'] = 27000,
 		['category'] = 'sedans',
 		['hash'] = `rs6`,
 		['shop'] = 'pdm',
