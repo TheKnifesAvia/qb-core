@@ -16,7 +16,7 @@ QBShared.Vehicles = {
 		['brand'] = 'Audi',
 		['model'] = 'rs6avant20',
 		['price'] = 45000,
-		['category'] = 'vans',
+		['category'] = 'sedans',
 		['hash'] = `rs6avant20`,
 		['shop'] = 'pdm',
 	},
