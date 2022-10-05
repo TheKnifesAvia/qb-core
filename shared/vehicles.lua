@@ -100,7 +100,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sedans',
 		['hash'] = `ocnetrongt`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
     ['rmodi8mlb'] = {
 		['name'] = 'BMW I8 RMOD',
@@ -109,7 +109,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sedans',
 		['hash'] = `rmodi8mlb`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
     ['amarok'] = {
 		['name'] = 'Amarok',
@@ -118,7 +118,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'suvs',
 		['hash'] = `amarok`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['bmwm8'] = {
 		['name'] = 'M8',
@@ -127,7 +127,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `bmwm8`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['xxxxx'] = {
 		['name'] = '6x6',
@@ -136,7 +136,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'suvs',
 		['hash'] = `xxxxx`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['rrst'] = {
 		['name'] = 'Vogue',
@@ -145,7 +145,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'suvs',
 		['hash'] = `rrst`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['pcs18'] = {
 		['name'] = 'Cayenne S',
@@ -154,7 +154,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'suvs',
 		['hash'] = `pcs18`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['mbc63'] = {
 		['name'] = 'C63 AMG',
@@ -163,7 +163,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `mbc63`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['rmodm4gts'] = {
 		['name'] = 'BMW M4 GTS',
@@ -172,7 +172,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sedans',
 		['hash'] = `rmodm4gts`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['chr20'] = {
 		['name'] = 'Charger',
@@ -181,7 +181,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `chr20`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['16challenger'] = {
 		['name'] = 'Challenger',
@@ -190,7 +190,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `16challenger`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['m3f80'] = {
 		['name'] = 'F80 M3',
@@ -199,7 +199,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `m3f80`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['m2'] = {
 		['name'] = 'M2',
@@ -208,7 +208,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `m2`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['e34'] = {
 		['name'] = 'E34 M5',
@@ -217,7 +217,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `e34`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['m3e36'] = {
 		['name'] = 'E36 M3',
@@ -226,7 +226,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sports',
 		['hash'] = `m3e36`,
-		['shop'] = 'luxury',
+		['shop'] = 'store',
 	},
 	['s14'] = {
 		['name'] = '200sx Silvia S14',
@@ -235,7 +235,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sedans',
 		['hash'] = `s14`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	['nis15'] = {
 		['name'] = '200sx Silvia S15',
@@ -244,7 +244,7 @@ QBShared.Vehicles = {
 		['price'] = 99999999,
 		['category'] = 'sedans',
 		['hash'] = `nis15`,
-		['shop'] = 'pdm',
+		['shop'] = 'store',
 	},
 	-- Compacts
 	['ep3'] = {
