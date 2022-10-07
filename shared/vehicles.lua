@@ -102,6 +102,15 @@ QBShared.Vehicles = {
 		['hash'] = `ocnetrongt`,
 		['shop'] = 'store',
 	},
+    ['rmodmi8lb'] = {
+		['name'] = 'BMW I8 RMOD',
+		['brand'] = 'BMW',
+		['model'] = 'rmodmi8lb',
+		['price'] = 99999999,
+		['category'] = 'sedans',
+		['hash'] = `rmodmi8lb`,
+		['shop'] = 'store',
+	},
     ['rmodi8mlb'] = {
 		['name'] = 'BMW I8 RMOD',
 		['brand'] = 'BMW',
