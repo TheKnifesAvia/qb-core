@@ -404,6 +404,38 @@ QBShared.Jobs = {
             },
         },
 	},
+    ["billiards"] = {
+		label = "Billiards Bar",
+		defaultDuty = true,
+		grades = {
+			['0'] = {
+				name = 'Trial',
+				payment = 25
+		},
+			['1'] = {
+				name = 'Apprentice Bartender',
+				payment = 50
+		},
+			['2'] = {
+				name = 'Bartender',
+				payment = 75
+		},
+			['2'] = {
+				name = 'Supervisor',
+				payment = 100
+		},
+			['2'] = {
+				name = 'Manager',
+                isboss = true,
+				payment = 125
+		},
+			['3'] = {
+				name = 'Owner',
+				isboss = true,
+				payment = 150
+			},
+		},
+    },
     ['tuner'] = {
         label = 'Tuner Autos',
         defaultDuty = false,
