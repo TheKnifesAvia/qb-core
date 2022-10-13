@@ -420,16 +420,16 @@ QBShared.Jobs = {
 				name = 'Bartender',
 				payment = 75
 		},
-			['2'] = {
+			['3'] = {
 				name = 'Supervisor',
 				payment = 100
 		},
-			['2'] = {
+			['4'] = {
 				name = 'Manager',
                 isboss = true,
 				payment = 125
 		},
-			['3'] = {
+			['5'] = {
 				name = 'Owner',
 				isboss = true,
 				payment = 150
