@@ -409,31 +409,35 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
 			['0'] = {
-				name = 'Trial',
-				payment = 25
-		},
+                name = 'Dishwasher',
+                payment = 50
+            },
 			['1'] = {
-				name = 'Apprentice Bartender',
-				payment = 50
-		},
+                name = 'Wait Staff',
+                payment = 75
+            },
 			['2'] = {
-				name = 'Bartender',
-				payment = 75
-		},
+                name = 'Deliveries',
+                payment = 100
+            },
 			['3'] = {
-				name = 'Supervisor',
-				payment = 100
-		},
+                name = 'Bartender',
+                payment = 125
+            },
 			['4'] = {
-				name = 'Manager',
-                isboss = true,
-				payment = 125
-		},
+                name = 'Floor Manager',
+                payment = 150
+            },
 			['5'] = {
-				name = 'Owner',
+                name = 'General Manager',
 				isboss = true,
-				payment = 150
-			},
+                payment = 175
+            },
+			['6'] = {
+                name = 'Owner',
+				isboss = true,
+                payment = 200
+            },
 		},
     },
     ['tuner'] = {
