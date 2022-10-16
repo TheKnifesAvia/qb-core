@@ -93,6 +93,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
+    ['rmodx6'] = {
+		['name'] = 'BMW X6 MSport Liberty Walk',
+		['brand'] = 'BMW X6 M',
+		['model'] = 'rmodx6',
+		['price'] = 95000,
+		['category'] = 'Sports',
+		['hash'] = `rmodx6`,
+		['shop'] = 'store',
+	},
 	['gtam21'] = {
 		['name'] = 'Alfa Romeo Quadrafroglio',
 		['brand'] = 'Alfa Romeo',
