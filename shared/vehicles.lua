@@ -112,7 +112,7 @@ QBShared.Vehicles = {
 		['shop'] = 'store',
 	},
 	['gtam21'] = {
-		['name'] = 'Alfa Romeo Quadrafroglio',
+		['name'] = 'Alfa Romeo Giulia Quadrifoglio',
 		['brand'] = 'Alfa Romeo',
 		['model'] = 'gtam21',
 		['price'] = 95000,
