@@ -93,8 +93,26 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
+    ['benzsl63'] = {
+		['name'] = 'Mercedes SL AMG',
+		['brand'] = 'Mercedes',
+		['model'] = 'benzsl63',
+		['price'] = 95000,
+		['category'] = 'sports',
+		['hash'] = `benzsl63`,
+		['shop'] = 'store',
+	},
+    ['rmodx6'] = {
+		['name'] = 'BMW X6 MSport Liberty Walk',
+		['brand'] = 'BMW X6 M',
+		['model'] = 'rmodx6',
+		['price'] = 95000,
+		['category'] = 'Sports',
+		['hash'] = `rmodx6`,
+		['shop'] = 'store',
+	},
 	['gtam21'] = {
-		['name'] = 'Alfa Romeo Quadrafroglio',
+		['name'] = 'Alfa Romeo Giulia Quadrifoglio',
 		['brand'] = 'Alfa Romeo',
 		['model'] = 'gtam21',
 		['price'] = 95000,
@@ -1209,6 +1227,15 @@ QBShared.Vehicles = {
 		['price'] = 55000,
 		['category'] = 'super',
 		['hash'] = `718caymans`,
+		['shop'] = 'luxury',
+	},
+    ['911speedster19'] = {
+		['name'] = '911 Targa',
+		['brand'] = 'Porsche ',
+		['model'] = '911speedster19',
+		['price'] = 92000,
+		['category'] = 'super',
+		['hash'] = `911speedster19`,
 		['shop'] = 'luxury',
 	},
 	['cgt'] = {
