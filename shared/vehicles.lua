@@ -1220,6 +1220,15 @@ QBShared.Vehicles = {
 		['hash'] = `718caymans`,
 		['shop'] = 'luxury',
 	},
+    ['911speedster19'] = {
+		['name'] = '911 Targa',
+		['brand'] = 'Porsche ',
+		['model'] = '911speedster19',
+		['price'] = 92000,
+		['category'] = 'super',
+		['hash'] = `911speedster19`,
+		['shop'] = 'luxury',
+	},
 	['cgt'] = {
 		['name'] = 'Carrera GT',
 		['brand'] = 'Porsche ',
