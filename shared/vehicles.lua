@@ -93,6 +93,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
+	['gtam21'] = {
+		['name'] = 'Alfa Romeo Quadrafroglio',
+		['brand'] = 'Alfa Romeo',
+		['model'] = 'gtam21',
+		['price'] = 95000,
+		['category'] = 'Sports',
+		['hash'] = `gtam21`,
+		['shop'] = 'store',
+	},
 	['ocnetrongt'] = {
 		['name'] = 'Audi Etron',
 		['brand'] = 'Audi',
