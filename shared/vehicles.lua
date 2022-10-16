@@ -93,6 +93,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
+    ['benzsl63'] = {
+		['name'] = 'Mercedes SL AMG',
+		['brand'] = 'Mercedes',
+		['model'] = 'benzsl63',
+		['price'] = 95000,
+		['category'] = 'sports',
+		['hash'] = `benzsl63`,
+		['shop'] = 'store',
+	},
     ['rmodx6'] = {
 		['name'] = 'BMW X6 MSport Liberty Walk',
 		['brand'] = 'BMW X6 M',
