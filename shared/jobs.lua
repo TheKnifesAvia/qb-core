@@ -20,36 +20,38 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'PSCO',
-                payment = 50
+                payment = 75
             },
 			['1'] = {
                 name = 'ERPT',
-                payment = 70
+                payment = 140
             },
 			['2'] = {
                 name = 'RPTC',
-                payment = 90
+                payment = 150
             },
 			['3'] = {
                 name = 'CID',
-                payment = 90
+                payment = 150
             },
             ['4'] = {
                 name = 'AFO',
-                payment = 100
+                payment = 170
             },
             ['5'] = {
                 name = 'Deputy Assistant Commissioner',
-                payment = 110
+                isboss = true,
+                payment = 190
             },
 			['6'] = {
                 name = 'Assistant Commissioner',
-                payment = 120
+                isboss = true,
+                payment = 190
             },
             ['7'] = {
                 name = 'Commissioner',
 				isboss = true,
-                payment = 130
+                payment = 190
             },
         },
 	},
