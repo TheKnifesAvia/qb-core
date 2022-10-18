@@ -388,8 +388,9 @@ QBShared.Items = {
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
 
 	-- ADDONS START HERE
-	['blackmoney']                  = {['name'] = 'blackmoney',                    ['label'] = 'Dirty Money',              ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'dirtymoney.png',           ['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The ill-gotten gains of criminal activity.'},
-    -- BOII - Drugs
+	['blackmoney']                  = {['name'] = 'blackmoney',                    	['label'] = 'Dirty Money',              ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'dirtymoney.png',           ['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The ill-gotten gains of criminal activity.'},
+    ['defib']                 		= {['name'] = 'defib',                    		['label'] = 'Defib Unit',               ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'defib.png',           		['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The heart restarter.'},
+	-- BOII - Drugs
 	-- Crops
 	['weed_skunk_cbd_crop'] 	 	= {['name'] = 'weed_skunk_cbd_crop', 			['label'] = 'CBD Skunk Crop', 			['weight'] = 1200, 		['type'] = 'item', 		['image'] = 'weed_skunk_cbd_crop.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   		['combinable'] = nil,   ['description'] = 'A crop of CBD Skunk!'},
 	['weed_og-kush_cbd_crop'] 	 	= {['name'] = 'weed_og-kush_cbd_crop', 			['label'] = 'CBD OG Kush Crop', 		['weight'] = 1200, 		['type'] = 'item', 		['image'] = 'weed_og-kush_cbd_crop.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   		['combinable'] = nil,   ['description'] = 'A crop of CBD OG Kush'},
