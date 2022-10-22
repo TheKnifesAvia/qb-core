@@ -102,13 +102,13 @@ QBShared.Vehicles = {
 		['hash'] = `rmodm3touring`,
 		['shop'] = 'store',
 	},
-    ['rmodrsq8'] = {
-		['name'] = 'Audi RSQ8',
-		['brand'] = 'Audi',
-		['model'] = 'rmodrsq8',
+    ['rmodc8z06'] = {
+		['name'] = 'Corvette C8 Z06',
+		['brand'] = 'Corvette',
+		['model'] = 'rmodc8z06',
 		['price'] = 95000,
 		['category'] = 'sports',
-		['hash'] = `rmodrsq8`,
+		['hash'] = `rmodc8z06`,
 		['shop'] = 'store',
 	},
     ['rmodm5cs'] = {
