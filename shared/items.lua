@@ -388,7 +388,7 @@ QBShared.Items = {
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
 
 	-- ADDONS START HERE
-	['blackmoney']                  = {['name'] = 'blackmoney',                    	['label'] = 'Dirty Money',              ['weight'] = 10,      	['type'] = 'item',      ['image'] = 'dirtymoney.png',           ['unique'] = false,     ['useable'] = true,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The ill-gotten gains of criminal activity.'},
+	['blackmoney']                  = {['name'] = 'blackmoney',                    	['label'] = 'Dirty Money',              ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'dirtymoney.png',           ['unique'] = false,     ['useable'] = true,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The ill-gotten gains of criminal activity.'},
     ['defib']                 		= {['name'] = 'defib',                    		['label'] = 'Defib Unit',               ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'defib.png',           		['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The heart restarter.'},
 	-- BOII - Drugs
 	-- Crops
