@@ -93,6 +93,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	-- British 50 store vehicles
+    ['rmodjeep'] = {
+		['name'] = 'Jeep Cherokee',
+		['brand'] = 'Jeep',
+		['model'] = 'remodjeep',
+		['price'] = 95000,
+		['category'] = 'sports',
+		['hash'] = `rmodjeep`,
+		['shop'] = 'store',
+	},
     ['rmodm3touring'] = {
 		['name'] = 'BMW M3 Touring',
 		['brand'] = 'BMW',
