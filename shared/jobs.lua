@@ -39,19 +39,23 @@ QBShared.Jobs = {
                 payment = 170
             },
             ['5'] = {
+                name = 'AFO/NPAS',
+                payment = 180
+            },
+            ['6'] = {
                 name = 'Deputy Assistant Commissioner',
-                isboss = true,
+                isboss = false,
                 payment = 190
             },
-			['6'] = {
+			['7'] = {
                 name = 'Assistant Commissioner',
                 isboss = true,
                 payment = 190
             },
-            ['7'] = {
+            ['8'] = {
                 name = 'Commissioner',
 				isboss = true,
-                payment = 190
+                payment = 200
             },
         },
 	},
