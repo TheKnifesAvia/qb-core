@@ -510,4 +510,41 @@ QBShared.Jobs = {
                 },
             },
     },
+    ['pizzathis'] = {
+		label = 'Pizza This',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Dishwasher',
+                payment = 70
+            },
+			['1'] = {
+                name = 'Wait Staff',
+                payment = 70
+            },
+			['2'] = {
+                name = 'Line Cook',
+                payment = 80
+            },
+			['3'] = {
+                name = 'Chef',
+                payment = 90
+            },
+			['4'] = {
+                name = 'Head Chef',
+                payment = 100
+            },
+			['5'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 110
+            },
+			['6'] = {
+                name = 'Owner',
+				isboss = true,
+                payment = 120
+            },
+        },
+	},
 }
