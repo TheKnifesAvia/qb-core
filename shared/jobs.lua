@@ -20,7 +20,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'PSCO',
-                payment = 75
+                payment = 120
             },
 			['1'] = {
                 name = 'ERPT',
