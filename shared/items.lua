@@ -392,6 +392,7 @@ QBShared.Items = {
     ['defib']                 		= {['name'] = 'defib',                    		['label'] = 'Defib Unit',               ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'defib.png',           		['unique'] = false,     ['useable'] = true,     ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'The heart restarter.'},
 	['firm_key']                 	= {['name'] = 'firm_key',                    	['label'] = 'The Firm Key',             ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'key.png',           		['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Key to The Firms gang house.'},
     ['ballers_key']                 = {['name'] = 'ballers_key',                    ['label'] = 'The Ballers Key',          ['weight'] = 0,      	['type'] = 'item',      ['image'] = 'key.png',           		['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Key to The Ballers gang house.'},
+	['triads_key']                 	= {['name'] = 'triads_key',                   	['label'] = 'The Triads Key',          	['weight'] = 0,      	['type'] = 'item',      ['image'] = 'key.png',           		['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Key to The Triads gang house.'},
 
     -- BOII - Drugs
 	-- Crops
