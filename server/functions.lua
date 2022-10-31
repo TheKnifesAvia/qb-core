@@ -414,3 +414,24 @@ end
 function QBCore.Functions.Notify(source, text, type, length)
     TriggerClientEvent('QBCore:Notify', source, text, type, length)
 end
+
+-- Boosting check vin function
+QBCore.Functions.CreateCallback('imdost:server:checkvin', function (source, cb, data)
+    local src = source
+    local veh = NetworkGetEntityFromNetworkId(data)
+    local plate = GetVehicleNumberPlateText(veh)
+    local result = MySQL.Sync.fetchAll('SELECT is_stolen,citizenid  FROM player_vehicles WHERE plate = @plate', {
+       ['@plate'] = plate
+    })
+    if result[1] then
+       local vin
+       if result[1].is_stolen == 1 then
+        vin = "Seems like the VIN got scratched!"
+       else
+          vin = "the vin is not Scratched."
+       end
+       return cb({success = true, message = vin, owner = result[1].citizenid, is_stolen = result[1].is_stolen})
+    else
+       return cb({success = false, message = "Test"})
+    end
+ end)
