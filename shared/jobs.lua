@@ -522,15 +522,15 @@ QBShared.Jobs = {
         defaultDuty = true,
         grades = {
             ['0'] = {
-                    name = "Messenger",
-                    payment = 0
-                },
-        ['1'] = {
-                    name = "Manager",
-            isboss = true,
-                    payment = 0
-                },
+                name = "Messenger",
+                payment = 0
             },
+            ['1'] = {
+                name = "Manager",
+                isboss = true,
+                payment = 0
+            },
+        },
     },
     ['pizzathis'] = {
 		label = 'Pizza This',
