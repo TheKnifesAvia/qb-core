@@ -65,27 +65,49 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Trainee Paramedic',
+                name = 'Emergency Care Assistant',
                 payment = 80
             },
 			['1'] = {
-                name = 'Paramedic',
+                name = 'Student Paramedic',
                 payment = 90
             },
 			['2'] = {
-                name = 'Advanced Paramedic',
+                name = 'Paramedic',
                 payment = 100
             },
             ['3'] = {
-                name = 'HEMS Paramedic',
-                payment = 100
-            },
-            ['4'] = {
-                name = 'NHS Manager',
+                name = 'Advanced Paramedic',
                 payment = 110
             },
-			['5'] = {
-                name = 'NHS Director',
+			['4'] = {
+                name = 'Advanced Paramedic Practioner',
+                payment = 120
+            },
+            ['5'] = {
+                name = 'HEMS Critical Care Paramedic',
+                payment = 110
+            },
+            ['6'] = {
+                name = 'HEMS Doctor',
+                payment = 120
+            },
+            ['7'] = {
+                name = 'HEMS Team Leader',
+                payment = 120
+            },
+            ['8'] = {
+                name = 'Clinical Team Leader',
+				isboss = true,
+                payment = 120
+            },
+            ['9'] = {
+                name = 'Deputy Chief Executive Paramedic',
+				isboss = true,
+                payment = 120
+            },
+            ['10'] = {
+                name = 'Chief Executive Paramedic',
 				isboss = true,
                 payment = 120
             },
