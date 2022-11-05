@@ -97,7 +97,7 @@ QBShared.Jobs = {
                 payment = 120
             },
             ['8'] = {
-                name = 'Clinical Team Leader',
+                name = 'Ops Manager',
 				isboss = true,
                 payment = 120
             },
