@@ -2,6 +2,24 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
+	['veln'] = {
+		['name'] = 'i10 Nurburgring Edition',
+		['brand'] = 'Hyundai',
+		['model'] = 'veln',
+		['price'] = 55000,
+		['category'] = 'compacts',
+		['hash'] = `veln`,
+		['shop'] = 'pdm',
+	},
+	['ffrs'] = {
+		['name'] = 'Ford Focus RS',
+		['brand'] = 'Ford',
+		['model'] = 'ffrs',
+		['price'] = 55000,
+		['category'] = 'compacts',
+		['hash'] = `ffrs`,
+		['shop'] = 'pdm',
+	},
 	['rmodgemera'] = {
 		['name'] = 'Koenigsegg Gemera',
 		['brand'] = 'Koenigsegg',
