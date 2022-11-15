@@ -969,4 +969,134 @@ QBShared.Items = {
 	["axleparts"]=          {["name"] = "axleparts",        ["label"] = "Axle Parts",			["weight"] = 0, ["type"] = "item",  ["image"] = "axleparts.png",        ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
 	["sparetire"]=          {["name"] = "sparetire",        ["label"] = "Spare Tire",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparetire.png",        ["unique"] = true,  ["useable"] = false,["shouldClose"] = false,["description"] = ""},
 
+	-- Casino
+	["casino_beer"] = 		{["name"] = "casino_beer",		["label"] = "Casino Beer",			["weight"] = 0,	["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Beer"
+	},
+	["casino_burger"] = {
+		["name"] = "casino_burger",
+		["label"] = "Casino Burger",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Burger"
+	},
+	["casino_chips"] = {
+		["name"] = "casino_chips",
+		["label"] = "Casino Chips",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Chips"
+	},
+	["casino_coffee"] = {
+		["name"] = "casino_coffee",
+		["label"] = "Casino Coffee",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Coffee"
+	},
+	["casino_coke"] = {
+		["name"] = "casino_coke",
+		["label"] = "Casino Kofola",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Kofola"
+	},
+	["casino_donut"] = {
+		["name"] = "casino_donut",
+		["label"] = "Casino Donut",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Donut"
+	},
+	["casino_ego_chaser"] = {
+		["name"] = "casino_ego_chaser",
+		["label"] = "Casino Ego Chaser",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Ego Chaser"
+	},
+	["casino_luckypotion"] = {
+		["name"] = "casino_luckypotion",
+		["label"] = "Casino Lucky Potion",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Lucky Potion"
+	},
+	["casino_psqs"] = {
+		["name"] = "casino_psqs",
+		["label"] = "Casino Ps & Qs",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Ps & Qs"
+	},
+	["casino_sandwitch"] = {
+		["name"] = "casino_sandwitch",
+		["label"] = "Casino Sandwitch",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Sandwitch"
+	},
+	["casino_sprite"] = {
+		["name"] = "casino_sprite",
+		["label"] = "Casino Sprite",
+		["weight"] = 0,
+		["type"] = "item",
+		["image"] = "casinoitem.png",
+		["unique"] = true,
+		["useable"] = false,
+		["shouldClose"] = false,
+		["combinable"] = nil,
+		["description"] = "Casino Sprite"
+	}
+
 }
