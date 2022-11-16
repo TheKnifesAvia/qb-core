@@ -493,7 +493,12 @@ QBShared.Items = {
 	['c4_bomb'] 					= {['name'] = 'c4_bomb', 						['label'] = 'C4 Explosive', 			['weight'] = 1000, 			['type'] = 'item', 		['ammotype'] = nil,				['image'] = 'weapon_stickybomb.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A high-yield, timed explosive device'},
 
     -- SD Bobcat
-    ["bobcatkeycard"]               = {["name"] = "bobcatkeycard",                  ["label"] = "Bobcat Security Card",     ["weight"] = 1000,          ["type"] = "item", ["image"] = "bobcatkeycard.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "A keycard used at the Bobcat Security Deposit.."},
+    ["bobcatkeycard"]               = {["name"] = "bobcatkeycard",                  ["label"] = "Bobcat Security Card",     ["weight"] = 1000,      ["type"] = "item",      ["image"] = "bobcatkeycard.png",    ["unique"] = false, ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A keycard used at the Bobcat Security Deposit.."},
+    ["bands"] 					    = {["name"] = "bands", 			 	            ["label"] = "Band Of Notes", 		    ["weight"] = 100, 		["type"] = "item", 		["image"] = "cashstack.png", 		["unique"] = false, ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A band of small notes.."},
+    ["rolls"] 					    = {["name"] = "rolls", 			 	            ["label"] = "Roll Of Small Notes", 		["weight"] = 100, 		["type"] = "item", 		["image"] = "cashroll.png", 		["unique"] = false, ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A roll of small notes.."},
+    ['weedbud'] 				    = {['name'] = 'weedbud', 			 		    ['label'] = 'Weed Bud', 			    ['weight'] = 200, 		['type'] = 'item', 		['image'] = 'weedbud.png', 			['unique'] = false, ['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'A small 2g weed bud..'},
+    ["suspiciouspackage"] 			= {["name"] = "suspiciouspackage", 			 	["label"] = "Suspicious Package", 		["weight"] = 15000,     ["type"] = "item", 		["image"] = "weedpackage.png", 		["unique"] = true, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A large & hastly sealed package with a herbal aroma"},
+
 
 	--<!>-- WEED --<!>--
 	-- Tools
