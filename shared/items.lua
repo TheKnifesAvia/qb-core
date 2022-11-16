@@ -473,7 +473,6 @@ QBShared.Items = {
 	['spray_remover'] 				= {['name'] = 'spray_remover', 					['label'] = 'Spray Remover', 			['weight'] = 500, 		['type'] = 'item', 		['image'] = 'spray_remover.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true, 		['combinable'] = nil, 	['description'] = 'Removes graffiti'},
 
 	-- Tuner shop
-	["turbo"] 	 		         	= {["name"] = "turbo", 							["label"] = "Turbocharger", 			["weight"] = 10000, 	["type"] = "item", 		["image"] = "TURBO.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = ""},
     ["translv1"] 	 		 		= {["name"] = "translv1", 						["label"] = "Transmission Level 1", 	["weight"] = 20000, 	["type"] = "item", 		["image"] = "TRANSLV1.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = ""},
     ["translv2"] 	 				= {["name"] = "translv2", 						["label"] = "Transmission Level 2", 	["weight"] = 20000, 	["type"] = "item", 		["image"] = "TRANSLV2.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = ""},
     ["translv3"] 	 		 		= {["name"] = "translv3", 						["label"] = "Transmission Level 3", 	["weight"] = 20000, 	["type"] = "item", 		["image"] = "TRANSLV3.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = ""},
