@@ -120,6 +120,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
     -- Boosting vehicles
+    ['2021gst'] = {
+		['name'] = 'Rolls Royce Ghost',
+		['brand'] = 'Rolls Royce',
+		['model'] = '2021gst',
+		['price'] = 950000,
+		['category'] = 'sports',
+		['hash'] = `2021gst`,
+		['shop'] = 'Boosting',
+	},
     ['rmodsianr'] = {
 		['name'] = 'Lambourghini Sian R',
 		['brand'] = 'Lambourghini',
