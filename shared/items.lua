@@ -933,4 +933,8 @@ QBShared.Items = {
 
 	-- GKS PHONE
 	['powerbank'] = 		{['name'] = 'powerbank',        ['label'] = 'Phone Powerbank',      ['weight'] = 300,	['type'] = 'item', ['image'] = 'powerbank.png',      ['unique'] = true,  ['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = 'Charges your phone'},
+
+    -- CD Garage
+    ['fakeplates'] = 		{['name'] = 'fakeplates',        ['label'] = 'Fake Plates',      ['weight'] = 300,	['type'] = 'item', ['image'] = 'fakeplates.png',      ['unique'] = true,  ['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = 'Fake plates for your car'},
+
 }
