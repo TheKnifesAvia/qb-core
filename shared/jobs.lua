@@ -44,7 +44,6 @@ QBShared.Jobs = {
             },
             ['6'] = {
                 name = 'Deputy Assistant Commissioner',
-                isboss = true,
                 payment = 240
             },
 			['7'] = {
