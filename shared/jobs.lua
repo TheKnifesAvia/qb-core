@@ -678,4 +678,23 @@ QBShared.Jobs = {
             },
         },
     },
+    ['usedcars'] = {
+        label = 'Used Car Services',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Salesman',
+                payment = 100
+            },
+            ['1'] = {
+                name = 'Manager',
+                payment = 110
+            },
+            ['2'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 120
+            },
+        },
+    },
 }
