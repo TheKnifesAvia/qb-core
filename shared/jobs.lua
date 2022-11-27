@@ -234,8 +234,8 @@ QBShared.Jobs = {
             },
         },
 	},
-	['mechanic'] = {
-		label = 'Mechanic',
+	['mechanicvisuals'] = {
+		label = 'Mechanic/Visual Mods',
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
