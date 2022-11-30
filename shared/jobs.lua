@@ -27,7 +27,7 @@ QBShared.Jobs = {
                 payment = 200
             },
 			['2'] = {
-                name = 'RPTC',
+                name = 'AFO',
                 payment = 230
             },
 			['3'] = {
@@ -35,7 +35,7 @@ QBShared.Jobs = {
                 payment = 200
             },
             ['4'] = {
-                name = 'AFO',
+                name = 'RTPC',
                 payment = 220
             },
             ['5'] = {
