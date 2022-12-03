@@ -734,4 +734,33 @@ QBShared.Jobs = {
             },
         },
     },
+    ['strawberrybennys'] = {
+        label = 'Strawberry Modifications Shop',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Mechanic',
+                payment = 70
+            },
+            ['2'] = {
+                name = 'Manager',
+                isboss = false,
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Co-Owner',
+                isboss = true,
+                payment = 120
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 120
+            },
+        },
+    },
 }
