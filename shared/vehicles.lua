@@ -193,6 +193,15 @@ QBShared.Vehicles = {
 		['hash'] = `rmod911gtrsr`,
 		['shop'] = 'Casino',
 	},
+    ['rmodbacalar'] = {
+		['name'] = 'Bentley Continental Convertible',
+		['brand'] = 'Bentley',
+		['model'] = 'Continental Convertible',
+		['price'] = 950000,
+		['category'] = 'super',
+		['hash'] = `rmodbacalar`,
+		['shop'] = 'Casino',
+	},
 	-- British 50 store vehicles
     ['rmodlc500lb'] = {
 		['name'] = 'Lexus LC500 LB Works',
