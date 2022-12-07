@@ -83,13 +83,13 @@ QBShared.Vehicles = {
 		['hash'] = `gle`,
 		['shop'] = 'pdm',
 	},
-	['amg45'] = {
+	['a45amg'] = {
 		['name'] = 'A45 AMG',
 		['brand'] = 'Mercedes',
-		['model'] = 'amg45',
+		['model'] = 'A45 AMG',
 		['price'] = 42456,
 		['category'] = 'compacts',
-		['hash'] = `amg45`,
+		['hash'] = `a45amg`,
 		['shop'] = 'pdm',
 	},
 	['sjbenz'] = {
