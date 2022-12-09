@@ -980,4 +980,11 @@ QBShared.Items = {
     ['robbery_torch_01'] = {['name'] = 'robbery_torch_01',['label'] = 'Torch',['weight'] = 0,['type'] = 'item',['image'] = 'robbery_torch_01.png',['unique'] = true,['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = ''},
     ['robbery_usb_01'] = {['name'] = 'robbery_usb_01',['label'] = 'Cracked USB',['weight'] = 0,['type'] = 'item',['image'] = 'robbery_usb_01.png',['unique'] = true,['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = ''},
 
+	-- Christmas items
+
+	['candycane'] 				= {['name'] = 'candycane', 			['label'] = 'Candy Cane', 			    ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'candycane.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Candy Cane'},
+	['giftbox_small'] 			= {['name'] = 'giftbox_small', 		['label'] = 'Small Present', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'giftbox_small.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Small Present packed with gifts..'},
+	['giftbox_medium'] 			= {['name'] = 'giftbox_medium', 	['label'] = 'Medium Present', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'giftbox_medium.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Small Present packed with gifts..'},
+	['giftbox_large'] 			= {['name'] = 'giftbox_large', 		['label'] = 'Large Present', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'giftbox_large.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Small Present packed with gifts..'},
+
 }
