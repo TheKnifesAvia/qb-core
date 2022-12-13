@@ -202,6 +202,15 @@ QBShared.Vehicles = {
 		['hash'] = `rmodbacalar`,
 		['shop'] = 'Casino',
 	},
+	['rmodlp670'] = {
+		['name'] = 'Lambourghini Murcielago LP670',
+		['brand'] = 'Lambourghini',
+		['model'] = 'rmodlp670',
+		['price'] = 950000,
+		['category'] = 'super',
+		['hash'] = `rmodlp670`,
+		['shop'] = 'Casino',
+	},
 	-- British 50 store vehicles
     ['rmodlc500lb'] = {
 		['name'] = 'Lexus LC500 LB Works',
