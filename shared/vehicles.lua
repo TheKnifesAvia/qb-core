@@ -994,15 +994,6 @@ QBShared.Vehicles = {
 		['hash'] = `s8d2`,
 		['shop'] = 'pdm',
 	},
-	['dragekcivic'] = {
-		['name'] = 'Civic',
-		['brand'] = 'Honda ',
-		['model'] = 'dragekcivic',
-		['price'] = 2500,
-		['category'] = 'sedans',
-		['hash'] = `dragekcivic`,
-		['shop'] = 'pdm',
-	},
 	['regalia'] = {
 		['name'] = 'Regalia 723',
 		['brand'] = 'Quartz ',
