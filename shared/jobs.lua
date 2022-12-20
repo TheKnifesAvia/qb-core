@@ -424,7 +424,7 @@ QBShared.Jobs = {
 	},
     ["billiards"] = {
 		label = "Billiards Bar",
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
 			['0'] = {
                 name = 'Dishwasher',
@@ -532,7 +532,7 @@ QBShared.Jobs = {
     },
     ['beanmachine'] = {
 		label = 'Bean Machine',
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
 			['1'] = { name = 'Novice', payment = 75 },
@@ -543,7 +543,7 @@ QBShared.Jobs = {
 	},
     ['vanilla'] = {
 		label = 'Vanilla Unicorn',
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
 			['1'] = { name = 'Novice', payment = 75 },
@@ -554,7 +554,7 @@ QBShared.Jobs = {
 	},
     ['burgershot'] = {
 		label = 'BurgerShot',
-		defaultDuty = true,
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
