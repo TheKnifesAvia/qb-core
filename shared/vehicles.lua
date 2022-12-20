@@ -212,6 +212,15 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
+    ['rmodamgone'] = {
+		['name'] = 'Mercedes AMG One',
+		['brand'] = 'Mercedes',
+		['model'] = 'rmodamgone',
+		['price'] = 950000,
+		['category'] = 'super',
+		['hash'] = `rmodamgone`,
+		['shop'] = 'store',
+	},
     ['rmodlc500lb'] = {
 		['name'] = 'Lexus LC500 LB Works',
 		['brand'] = 'Lexus',
