@@ -443,7 +443,7 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
             end
         end
         local modLivery = GetVehicleMod(vehicle, 48)
-        if GetVehicleMod(vehicle, 48) == -1 and GetVehicleLivery(vehicle) ~= 0 then modLivery = GetVehicleLivery(vehicle) end
+        if GetVehicleMod(vehicle, 48) == -1 and GetVehicleLivery(vehicle) ~= -1 then modLivery = GetVehicleLivery(vehicle) end
         local tireHealth = {}
         local tireBurstState = {}
         local tireBurstCompletely = {}
