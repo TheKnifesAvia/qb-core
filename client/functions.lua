@@ -419,18 +419,22 @@ end
 function QBCore.Functions.GetVehicleProperties(vehicle)
     if DoesEntityExist(vehicle) then
         local pearlescentColor, wheelColor = GetVehicleExtraColours(vehicle)
+		local colorPrimary, colorSecondary = GetVehicleColours(vehicle)
 
-        local colorPrimary, colorSecondary = GetVehicleColours(vehicle)
+        if GetVehicleXenonLightsCustomColor(vehicle) == 1 then
+            local _, r, g, b = GetVehicleXenonLightsCustomColor(vehicle)
+            headlightColor = { r, g, b }
+        else
+            headlightColor = GetVehicleHeadlightsColour(vehicle)
+        end
         if GetIsVehiclePrimaryColourCustom(vehicle) then
             local r, g, b = GetVehicleCustomPrimaryColour(vehicle)
-            colorPrimary = {r, g, b}
+            colorPrimary = { r, g, b, colorPrimary }
         end
-
         if GetIsVehicleSecondaryColourCustom(vehicle) then
             local r, g, b = GetVehicleCustomSecondaryColour(vehicle)
-            colorSecondary = {r, g, b}
+            colorSecondary = { r, g, b, colorSecondary }
         end
-
         local extras = {}
         for extraId = 0, 12 do
             if DoesExtraExist(vehicle, extraId) then
@@ -438,37 +442,20 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
                 extras[tostring(extraId)] = state
             end
         end
-
         local modLivery = GetVehicleMod(vehicle, 48)
-        if GetVehicleMod(vehicle, 48) == -1 and GetVehicleLivery(vehicle) ~= 0 then
-            modLivery = GetVehicleLivery(vehicle)
-        end
-
+        if GetVehicleMod(vehicle, 48) == -1 and GetVehicleLivery(vehicle) ~= 0 then modLivery = GetVehicleLivery(vehicle) end
         local tireHealth = {}
-        for i = 0, 3 do
-            tireHealth[i] = GetVehicleWheelHealth(vehicle, i)
-        end
-
         local tireBurstState = {}
-        for i = 0, 5 do
-           tireBurstState[i] = IsVehicleTyreBurst(vehicle, i, false)
-        end
-
         local tireBurstCompletely = {}
-        for i = 0, 5 do
-            tireBurstCompletely[i] = IsVehicleTyreBurst(vehicle, i, true)
+        for _, id in pairs({0, 1, 2, 3, 4, 5, 45, 47}) do
+            tireHealth[id] = GetVehicleWheelHealth(vehicle, id, false)
+            tireBurstState[id] = IsVehicleTyreBurst(vehicle, id, false)
+            tireBurstCompletely[id] = IsVehicleTyreBurst(vehicle, id, true)
         end
-
         local windowStatus = {}
-        for i = 0, 7 do
-            windowStatus[i] = IsVehicleWindowIntact(vehicle, i) == 1
-        end
-
+        for i = 0, 7 do windowStatus[i] = IsVehicleWindowIntact(vehicle, i) == 1 end
         local doorStatus = {}
-        for i = 0, 5 do
-            doorStatus[i] = IsVehicleDoorDamaged(vehicle, i) == 1
-        end
-
+        for i = 0, 5 do doorStatus[i] = IsVehicleDoorDamaged(vehicle, i) == 1 end
         return {
             model = GetEntityModel(vehicle),
             plate = QBCore.Functions.GetPlate(vehicle),
@@ -493,7 +480,7 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
             windowTint = GetVehicleWindowTint(vehicle),
             windowStatus = windowStatus,
             doorStatus = doorStatus,
-            xenonColor = GetVehicleXenonLightsColour(vehicle),
+            headlightColor = headlightColor,
             neonEnabled = {
                 IsVehicleNeonLightEnabled(vehicle, 0),
                 IsVehicleNeonLightEnabled(vehicle, 1),
@@ -501,7 +488,6 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
                 IsVehicleNeonLightEnabled(vehicle, 3)
             },
             neonColor = table.pack(GetVehicleNeonLightsColour(vehicle)),
-            headlightColor = GetVehicleHeadlightsColour(vehicle),
             interiorColor = GetVehicleInteriorColour(vehicle),
             extras = extras,
             tyreSmokeColor = table.pack(GetVehicleTyreSmokeColor(vehicle)),
@@ -558,6 +544,8 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
             modLivery = modLivery,
             modKit49 = GetVehicleMod(vehicle, 49),
             liveryRoof = GetVehicleRoofLivery(vehicle),
+			modDrift = GetDriftTyresEnabled(vehicle),
+			modBProofTires = not GetVehicleTyresCanBurst(vehicle),
         }
     else
         return
