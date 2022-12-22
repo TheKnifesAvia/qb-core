@@ -230,7 +230,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-    ['m135i'] = {
+    ['v250'] = {
+		['name'] = 'Mercedes Vito',
+		['brand'] = 'Mercedes',
+		['model'] = 'v250',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `v250`,
+		['shop'] = 'store',
+	},
+	['m135i'] = {
 		['name'] = 'BMW M135i',
 		['brand'] = 'BMW',
 		['model'] = 'm135i',
