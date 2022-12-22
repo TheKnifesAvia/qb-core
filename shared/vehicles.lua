@@ -230,7 +230,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-    ['911topcar2021'] = {
+    ['m135i'] = {
+		['name'] = 'BMW M135i',
+		['brand'] = 'BMW',
+		['model'] = 'm135i',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `m135i`,
+		['shop'] = 'store',
+	},
+	['911topcar2021'] = {
 		['name'] = '911 Turbo',
 		['brand'] = 'Porsche',
 		['model'] = '911topcar2021',
