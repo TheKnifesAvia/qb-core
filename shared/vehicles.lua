@@ -2,6 +2,15 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
+	['21raptor'] = {
+		['name'] = 'Ford Raptor',
+		['brand'] = 'Ford',
+		['model'] = '21raptor',
+		['price'] = 750000,
+		['category'] = 'suvs',
+		['hash'] = `21raptor`,
+		['shop'] = 'pdm',
+	},
 	['veln'] = {
 		['name'] = 'i10 Nurburgring Edition',
 		['brand'] = 'Hyundai',
@@ -212,7 +221,25 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-    ['rmodsupravaris'] = {
+    ['911topcar2021'] = {
+		['name'] = '911 Turbo',
+		['brand'] = 'Porsche',
+		['model'] = '911topcar2021',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `911topcar2021`,
+		['shop'] = 'store',
+	},
+	['oycdefender'] = {
+		['name'] = 'Land Rover Defender',
+		['brand'] = 'Defender',
+		['model'] = 'oycdefender',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `oycdefender`,
+		['shop'] = 'store',
+	},
+	['rmodsupravaris'] = {
 		['name'] = 'Toyota Supra Varis',
 		['brand'] = 'Toyota',
 		['model'] = 'rmodsupravaris',
