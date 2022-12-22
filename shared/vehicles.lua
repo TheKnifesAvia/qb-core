@@ -2,6 +2,15 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
+	['c63wagon'] = {
+		['name'] = 'Mercedes C63 Wagon',
+		['brand'] = 'Mercedes',
+		['model'] = 'c63wagon',
+		['price'] = 105000,
+		['category'] = 'compacts',
+		['hash'] = `c63wagon`,
+		['shop'] = 'pdm',
+	},
 	['21raptor'] = {
 		['name'] = 'Ford Raptor',
 		['brand'] = 'Ford',
