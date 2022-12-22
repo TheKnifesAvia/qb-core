@@ -212,7 +212,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-    ['rmodamgone'] = {
+    ['rmodsupravaris'] = {
+		['name'] = 'Toyota Supra Varis',
+		['brand'] = 'Toyota',
+		['model'] = 'rmodsupravaris',
+		['price'] = 950000,
+		['category'] = 'super',
+		['hash'] = `rmodsupravaris`,
+		['shop'] = 'store',
+	},
+	['rmodamgone'] = {
 		['name'] = 'Mercedes AMG One',
 		['brand'] = 'Mercedes',
 		['model'] = 'rmodamgone',
