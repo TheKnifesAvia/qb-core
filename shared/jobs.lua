@@ -32,7 +32,7 @@ QBShared.Jobs = {
             },
 			['3'] = {
                 name = 'CID',
-                payment = 200
+                payment = 210
             },
             ['4'] = {
                 name = 'RTPC',
@@ -43,15 +43,19 @@ QBShared.Jobs = {
                 payment = 230
             },
             ['6'] = {
+                name = 'SFO',
+                payment = 240
+            },
+            ['7'] = {
                 name = 'Deputy Assistant Commissioner',
                 payment = 240
             },
-			['7'] = {
+			['8'] = {
                 name = 'Assistant Commissioner',
                 isboss = true,
                 payment = 240
             },
-            ['8'] = {
+            ['9'] = {
                 name = 'Commissioner',
 				isboss = true,
                 payment = 250
