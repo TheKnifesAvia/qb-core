@@ -1045,7 +1045,7 @@ QBShared.Items = {
 	['giftbox_medium'] 			= {['name'] = 'giftbox_medium', 	['label'] = 'Medium Present', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'giftbox_medium.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Small Present packed with gifts..'},
 	['giftbox_large'] 			= {['name'] = 'giftbox_large', 		['label'] = 'Large Present', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'giftbox_large.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Small Present packed with gifts..'},
 
-    	-- jim-mining stuff
+    -- jim-mining stuff
     ["stone"] 		 	 			 = {["name"] = "stone",           				["label"] = "Stone",	 				["weight"] = 2000, 	    ["type"] = "item", 		["image"] = "stone.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "Stone woo"},
 
     ["uncut_emerald"] 				 = {["name"] = "uncut_emerald", 			  	["label"] = "Uncut Emerald", 			["weight"] = 100, 		["type"] = "item", 		["image"] = "uncut_emerald.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "A rough Emerald"},
