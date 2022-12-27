@@ -27,15 +27,15 @@ QBShared.Jobs = {
                 payment = 200
             },
 			['2'] = {
-                name = 'RPTC',
+                name = 'AFO',
                 payment = 230
             },
 			['3'] = {
                 name = 'CID',
-                payment = 200
+                payment = 210
             },
             ['4'] = {
-                name = 'AFO',
+                name = 'RTPC',
                 payment = 220
             },
             ['5'] = {
@@ -43,15 +43,19 @@ QBShared.Jobs = {
                 payment = 230
             },
             ['6'] = {
+                name = 'SFO',
+                payment = 240
+            },
+            ['7'] = {
                 name = 'Deputy Assistant Commissioner',
                 payment = 240
             },
-			['7'] = {
+			['8'] = {
                 name = 'Assistant Commissioner',
                 isboss = true,
                 payment = 240
             },
-            ['8'] = {
+            ['9'] = {
                 name = 'Commissioner',
 				isboss = true,
                 payment = 250
@@ -424,7 +428,7 @@ QBShared.Jobs = {
 	},
     ["billiards"] = {
 		label = "Billiards Bar",
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
 			['0'] = {
                 name = 'Dishwasher',
@@ -532,7 +536,7 @@ QBShared.Jobs = {
     },
     ['beanmachine'] = {
 		label = 'Bean Machine',
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
 			['1'] = { name = 'Novice', payment = 75 },
@@ -543,7 +547,7 @@ QBShared.Jobs = {
 	},
     ['vanilla'] = {
 		label = 'Vanilla Unicorn',
-		defaultDuty = true,
+		defaultDuty = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
 			['1'] = { name = 'Novice', payment = 75 },
@@ -554,7 +558,7 @@ QBShared.Jobs = {
 	},
     ['burgershot'] = {
 		label = 'BurgerShot',
-		defaultDuty = true,
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
             ['0'] = { name = 'Recruit', payment = 50 },
@@ -678,4 +682,96 @@ QBShared.Jobs = {
             },
         },
     },
+    ['usedcars'] = {
+        label = 'Used Car Services',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Mechanic',
+                payment = 150
+            },
+            ['1'] = {
+                name = 'Car Sales',
+                payment = 150
+            },
+            ['2'] = {
+                name = 'Visual',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Manager',
+                payment = 350
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 350
+            },
+        },
+    },
+    ['pdmmodshop'] = {
+        label = 'PDM Modifications Shop',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Mechanic',
+                payment = 70
+            },
+            ['2'] = {
+                name = 'Manager',
+                isboss = false,
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Co-Owner',
+                isboss = true,
+                payment = 120
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 120
+            },
+        },
+    },
+    ['strawberrybennys'] = {
+        label = 'Strawberry Modifications Shop',
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Mechanic',
+                payment = 70
+            },
+            ['2'] = {
+                name = 'Manager',
+                isboss = false,
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Co-Owner',
+                isboss = true,
+                payment = 120
+            },
+            ['4'] = {
+                name = 'Owner',
+                isboss = true,
+                payment = 120
+            },
+        },
+    },
 }
+
+
+            -- Jobs Creator integration (jobs_creator)
+            RegisterNetEvent("jobs_creator:injectJobs", function(jobs)
+                QBShared.Jobs = jobs
+            end)
+        
