@@ -230,6 +230,15 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
+    ['458spider'] = {
+		['name'] = 'Ferrari 458 Spider',
+		['brand'] = 'Ferrari',
+		['model'] = '458spider',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `458spider`,
+		['shop'] = 'store',
+	},
     ['v250'] = {
 		['name'] = 'Mercedes Vito',
 		['brand'] = 'Mercedes',
