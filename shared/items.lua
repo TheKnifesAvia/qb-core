@@ -990,7 +990,7 @@ QBShared.Items = {
 	["casino_sprite"] =     {["name"] = "casino_sprite",    ["label"] = "Casino Sprite",        ["weight"] = 0,	["type"] = "item",   ["image"] = "casinoitem.png",       ["unique"] = true,  ["useable"] = false,["shouldClose"] = false,["combinable"] = nil,["description"] = "Casino Sprite"},
 
 	-- GKS PHONE
-	['powerbank'] = 		{['name'] = 'powerbank',        ['label'] = 'Phone Powerbank',      ['weight'] = 300,	['type'] = 'item', ['image'] = 'powerbank.png',      ['unique'] = true,  ['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = 'Charges your phone'},
+	['powerbank'] = 		{['name'] = 'powerbank',        ['label'] = 'Phone Powerbank',      ['weight'] = 800,	['type'] = 'item', ['image'] = 'powerbank.png',      ['unique'] = false,  ['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = 'Charges your phone'},
 
     -- CD Garage
     ['fakeplates'] = 		{['name'] = 'fakeplates',        ['label'] = 'Fake Plates',      ['weight'] = 300,	['type'] = 'item', ['image'] = 'fakeplates.png',      ['unique'] = true,  ['useable'] = false,['shouldClose'] = false,['combinable'] = nil,['description'] = 'Fake plates for your car'},
