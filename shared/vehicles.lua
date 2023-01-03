@@ -2,7 +2,16 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
-	['def90'] = {
+	['tmax'] = {
+		['name'] = 'Yamaha T Max',
+		['brand'] = 'Yamaha',
+		['model'] = 'tmax',
+		['price'] = 900000,
+		['category'] = 'motorcycles',
+		['hash'] = `tmax`,
+		['shop'] = 'pdm',
+	},
+    ['def90'] = {
 		['name'] = 'Land Rover Defender 90',
 		['brand'] = 'Land Rovver',
 		['model'] = 'def90',
