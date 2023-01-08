@@ -2,7 +2,16 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
-	['tmax'] = {
+	['rmodrs5'] = {
+		['name'] = 'Audi RS5',
+		['brand'] = 'Audi',
+		['model'] = 'rmodrs5',
+		['price'] = 65000,
+		['category'] = 'compacts',
+		['hash'] = `rmodrs5`,
+		['shop'] = 'store',
+	},
+    ['tmax'] = {
 		['name'] = 'Yamaha T Max',
 		['brand'] = 'Yamaha',
 		['model'] = 'tmax',
@@ -257,7 +266,7 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-	['rmodamggt'] = {
+    ['rmodamggt'] = {
 		['name'] = 'Mercedes AMG GT',
 		['brand'] = 'Mercedes',
 		['model'] = 'rmodamggt',
