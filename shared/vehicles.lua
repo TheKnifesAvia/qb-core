@@ -257,7 +257,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-	['rmodaudiai'] = {
+	['rmodamggt'] = {
+		['name'] = 'Mercedes AMG GT',
+		['brand'] = 'Mercedes',
+		['model'] = 'rmodamggt',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmodamggt`,
+		['shop'] = 'store',
+	},
+    ['rmodaudiai'] = {
 		['name'] = 'Audi Etron AI',
 		['brand'] = 'Audi',
 		['model'] = 'rmodaudiai',
