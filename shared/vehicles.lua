@@ -257,7 +257,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-    ['458spider'] = {
+    ['rmod911gt3'] = {
+		['name'] = 'Porsche 911 GT3',
+		['brand'] = 'Porsche',
+		['model'] = 'rmod911gt3',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmod911gt3`,
+		['shop'] = 'store',
+	},
+	['458spider'] = {
 		['name'] = 'Ferrari 458 Spider',
 		['brand'] = 'Ferrari',
 		['model'] = '458spider',
