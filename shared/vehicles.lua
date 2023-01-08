@@ -257,9 +257,18 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-	['rmodbentayga'] = {
+	['rmodchargerw'] = {
+		['name'] = 'Dodge Charger WB',
+		['brand'] = 'Dodge',
+		['model'] = 'rmodchargerw',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmodchargerw`,
+		['shop'] = 'store',
+	},
+    ['rmodbentayga'] = {
 		['name'] = 'Bentley Bentayga',
-		['brand'] = 'Porsche',
+		['brand'] = 'Bentley',
 		['model'] = 'rmodbentayga',
 		['price'] = 950000,
 		['category'] = 'compacts',
