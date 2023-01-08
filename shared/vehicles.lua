@@ -257,7 +257,16 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
-	['rmodchargerw'] = {
+	['rmodaudiai'] = {
+		['name'] = 'Audi Etron AI',
+		['brand'] = 'Audi',
+		['model'] = 'rmodaudiai',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmodaudiai`,
+		['shop'] = 'store',
+	},
+    ['rmodchargerw'] = {
 		['name'] = 'Dodge Charger WB',
 		['brand'] = 'Dodge',
 		['model'] = 'rmodchargerw',
