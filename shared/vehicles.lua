@@ -2,14 +2,24 @@ QBShared = QBShared or {}
 QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
-	['rmodrs5'] = {
+    -- PDM/LUX Cars
+	['mv2019'] = {
+		['name'] = 'MV Augusta',
+		['brand'] = 'MV Augusta',
+		['model'] = 'mv2019',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `mv2019`,
+		['shop'] = 'pdm',
+	},
+    ['rmodrs5'] = {
 		['name'] = 'Audi RS5',
 		['brand'] = 'Audi',
 		['model'] = 'rmodrs5',
 		['price'] = 65000,
 		['category'] = 'compacts',
 		['hash'] = `rmodrs5`,
-		['shop'] = 'store',
+		['shop'] = 'pdm',
 	},
     ['tmax'] = {
 		['name'] = 'Yamaha T Max',
