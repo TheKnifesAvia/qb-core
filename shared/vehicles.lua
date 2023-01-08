@@ -257,6 +257,24 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
+	['rmodbentayga'] = {
+		['name'] = 'Bentley Bentayga',
+		['brand'] = 'Porsche',
+		['model'] = 'rmodbentayga',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmodbentayga`,
+		['shop'] = 'store',
+	},
+    ['rmodjeepg'] = {
+		['name'] = 'Jeep Wrangler XL',
+		['brand'] = 'Jeep',
+		['model'] = 'rmodjeepg',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmodjeepg`,
+		['shop'] = 'store',
+	},
     ['rmod911gt3'] = {
 		['name'] = 'Porsche 911 GT3',
 		['brand'] = 'Porsche',
