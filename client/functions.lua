@@ -13,7 +13,7 @@ function QBCore.Functions.GetCoords(entity)
 end
 
 function QBCore.Functions.HasItem(items, amount)
-    return exports['qb-inventory']:HasItem(items, amount)
+    return exports['lj-inventory']:HasItem(items, amount)
 end
 
 -- Utility
@@ -383,6 +383,7 @@ function QBCore.Functions.SpawnVehicle(model, cb, coords, isnetworked, teleportI
 end
 
 function QBCore.Functions.DeleteVehicle(vehicle)
+    TriggerServerEvent('cd_garage:RemovePersistentVehicles', exports['cd_garage']:GetPlate(vehicle))
     SetEntityAsMissionEntity(vehicle, true, true)
     DeleteVehicle(vehicle)
 end

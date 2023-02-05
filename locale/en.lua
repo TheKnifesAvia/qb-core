@@ -80,7 +80,7 @@ local Translations = {
             help = 'Give A Player Money (Admin Only)',
             params = {
                 id = { name = 'id', help = 'Player ID' },
-                moneytype = { name = 'moneytype', help = 'Type of money (cash, bank, crypto)' },
+                moneytype = { name = 'moneytype', help = 'Type of money (cash, bank, crypto, dirty)' },
                 amount = { name = 'amount', help = 'Amount of money' },
             },
         },
@@ -88,7 +88,7 @@ local Translations = {
             help = 'Set Players Money Amount (Admin Only)',
             params = {
                 id = { name = 'id', help = 'Player ID' },
-                moneytype = { name = 'moneytype', help = 'Type of money (cash, bank, crypto)' },
+                moneytype = { name = 'moneytype', help = 'Type of money (cash, bank, crypto, dirty)' },
                 amount = { name = 'amount', help = 'Amount of money' },
             },
         },
