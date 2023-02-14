@@ -276,6 +276,15 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
+    ['rmodm4csl'] = {
+		['name'] = 'BMW M4 CSL',
+		['brand'] = 'BMW',
+		['model'] = 'rmodm4csl',
+		['price'] = 950000,
+		['category'] = 'sports',
+		['hash'] = `rmodm4csl`,
+		['shop'] = 'store',
+	},
     ['rmod911rwb'] = {
 		['name'] = 'Porsche 911',
 		['brand'] = 'Porsche',
