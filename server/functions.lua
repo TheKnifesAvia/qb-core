@@ -261,8 +261,8 @@ function QBCore.Functions.CanUseItem(item)
 end
 
 function QBCore.Functions.UseItem(source, item)
-    if GetResourceState('lj-inventory') == 'missing' then return end
-    exports['lj-inventory']:UseItem(source, item)
+    if GetResourceState('qb-inventory') == 'missing' then return end
+    exports['qb-inventory']:UseItem(source, item)
 end
 
 -- Kick Player
@@ -407,31 +407,23 @@ end
 -- Utility functions
 
 function QBCore.Functions.HasItem(source, items, amount)
-    if GetResourceState('lj-inventory') == 'missing' then return end
-    return exports['lj-inventory']:HasItem(source, items, amount)
+    if GetResourceState('qb-inventory') == 'missing' then return end
+    return exports['qb-inventory']:HasItem(source, items, amount)
 end
 
 function QBCore.Functions.Notify(source, text, type, length)
     TriggerClientEvent('QBCore:Notify', source, text, type, length)
 end
 
--- Boosting check vin function
-QBCore.Functions.CreateCallback('imdost:server:checkvin', function (source, cb, data)
+--- SQL Pattern Matching
+function QBCore.Functions.PrepForSQL(source,data,pattern)
+    data = tostring(data)
     local src = source
-    local veh = NetworkGetEntityFromNetworkId(data)
-    local plate = GetVehicleNumberPlateText(veh)
-    local result = MySQL.Sync.fetchAll('SELECT is_stolen,citizenid  FROM player_vehicles WHERE plate = @plate', {
-       ['@plate'] = plate
-    })
-    if result[1] then
-       local vin
-       if result[1].is_stolen == 1 then
-        vin = "Seems like the VIN got scratched!"
-       else
-          vin = "the vin is not Scratched."
-       end
-       return cb({success = true, message = vin, owner = result[1].citizenid, is_stolen = result[1].is_stolen})
-    else
-       return cb({success = false, message = "Test"})
+    local player = QBCore.Functions.GetPlayer(src)
+    local result = string.match(data, pattern)
+    if not result or string.len(result) ~= string.len(data)  then
+        TriggerEvent('qb-log:server:CreateLog', 'anticheat', 'SQL Exploit Attempted', 'red', string.format('%s attempted to exploit SQL!', player.PlayerData.license))
+        return false
     end
- end)
+    return true
+end
