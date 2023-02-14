@@ -276,6 +276,24 @@ QBShared.Vehicles = {
 		['shop'] = 'Casino',
 	},
 	-- British 50 store vehicles
+    ['rmod911rwb'] = {
+		['name'] = 'Porsche 911',
+		['brand'] = 'Porsche',
+		['model'] = 'rmod911rwb',
+		['price'] = 950000,
+		['category'] = 'compacts',
+		['hash'] = `rmod911rwb`,
+		['shop'] = 'store',
+	},
+    ['rmodbmwf22'] = {
+		['name'] = 'BMW M2 F22',
+		['brand'] = 'BMW',
+		['model'] = 'rmodbmwf22',
+		['price'] = 950000,
+		['category'] = 'sports',
+		['hash'] = `rmodbmwf22`,
+		['shop'] = 'store',
+	},
     ['rmodamggt'] = {
 		['name'] = 'Mercedes AMG GT',
 		['brand'] = 'Mercedes',
