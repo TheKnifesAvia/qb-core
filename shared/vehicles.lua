@@ -3236,7 +3236,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `oppressor`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['pcj'] = {
         ['name'] = 'PCJ-600',
@@ -5021,7 +5021,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `alpha`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['banshee'] = {
         ['name'] = 'Banshee',
@@ -5031,7 +5031,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `banshee`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['bestiagts'] = {
         ['name'] = 'Bestia GTS',
@@ -5041,7 +5041,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `bestiagts`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['blista2'] = {
         ['name'] = 'Blista Compact',
@@ -5071,7 +5071,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `buffalo`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['buffalo2'] = {
         ['name'] = 'Buffalo S',
@@ -5081,7 +5081,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `buffalo2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['carbonizzare'] = {
         ['name'] = 'Carbonizzare',
@@ -5091,7 +5091,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `carbonizzare`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['comet2'] = {
         ['name'] = 'Comet',
@@ -5101,7 +5101,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['comet3'] = {
         ['name'] = 'Comet Retro Custom',
@@ -5111,7 +5111,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet3`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['comet4'] = {
         ['name'] = 'Comet Safari',
@@ -5121,7 +5121,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet4`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['comet5'] = {
         ['name'] = 'Comet SR',
@@ -5131,7 +5131,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet5`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['coquette'] = {
         ['name'] = 'Coquette',
@@ -5141,7 +5141,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `coquette`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['coquette2'] = {
         ['name'] = 'Coquette Classic',
@@ -5161,7 +5161,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `coquette4`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['drafter'] = {                            --DLC
         ['name'] = '8F Drafter',
@@ -5171,7 +5171,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `drafter`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['deveste'] = {                            --DLC
         ['name'] = 'Deveste',
@@ -5181,7 +5181,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `deveste`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['elegy'] = {                            --DLC
         ['name'] = 'Elegy Retro Custom',
@@ -5191,7 +5191,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `elegy`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['elegy2'] = {
         ['name'] = 'Elegy RH8',
@@ -5201,7 +5201,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `elegy2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['feltzer2'] = {
         ['name'] = 'Feltzer',
@@ -5211,7 +5211,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `feltzer2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['flashgt'] = {
         ['name'] = 'Flash GT',
@@ -5221,7 +5221,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `flashgt`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['furoregt'] = {
         ['name'] = 'Furore GT',
@@ -5231,7 +5231,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `furoregt`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['futo'] = {
         ['name'] = 'Futo',
@@ -5251,7 +5251,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `gb200`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['komoda'] = {
         ['name'] = 'Komoda',
@@ -5261,7 +5261,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `komoda`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['imorgon'] = {
         ['name'] = 'Imorgon',
@@ -5271,7 +5271,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `imorgon`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['issi7'] = {                            --DLC
         ['name'] = 'Issi Sport',
@@ -5291,7 +5291,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `italigto`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['jugular'] = {                            --DLC
         ['name'] = 'Jugular',
@@ -5301,7 +5301,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jugular`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['jester'] = {
         ['name'] = 'Jester',
@@ -5311,7 +5311,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['jester2'] = {
         ['name'] = 'Jester Racecar',
@@ -5321,7 +5321,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['jester3'] = {
         ['name'] = 'Jester Classic',
@@ -5331,7 +5331,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester3`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['khamelion'] = {
         ['name'] = 'Khamelion',
@@ -5341,7 +5341,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `khamelion`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['kuruma'] = {
         ['name'] = 'Kuruma',
@@ -5351,7 +5351,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `kuruma`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['kuruma2'] = {
         ['name'] = 'kuruma2',
@@ -5361,7 +5361,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `kuruma2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['locust'] = {                            --DLC
         ['name'] = 'Locust',
@@ -5371,7 +5371,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `locust`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['lynx'] = {
         ['name'] = 'Lynx',
@@ -5381,7 +5381,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `lynx`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['massacro'] = {
         ['name'] = 'Massacro',
@@ -5391,7 +5391,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `massacro`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['massacro2'] = {
         ['name'] = 'Massacro Racecar',
@@ -5401,7 +5401,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `massacro2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['neo'] = {                            --DLC
         ['name'] = 'Neo',
@@ -5411,7 +5411,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `neo`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['neon'] = {                            --DLC
         ['name'] = 'Neon',
@@ -5421,7 +5421,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `neon`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['ninef'] = {
         ['name'] = '9F',
@@ -5431,7 +5431,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ninef`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['ninef2'] = {
         ['name'] = '9F Cabrio',
@@ -5441,7 +5441,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ninef2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['omnis'] = {
         ['name'] = 'Omnis',
@@ -5451,7 +5451,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `omnis`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['paragon'] = {                            --DLC
         ['name'] = 'Paragon',
@@ -5461,7 +5461,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `paragon`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['pariah'] = {
         ['name'] = 'Pariah',
@@ -5471,7 +5471,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `pariah`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['penumbra'] = {
         ['name'] = 'Penumbra',
@@ -5481,7 +5481,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `penumbra`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['penumbra2'] = {
         ['name'] = 'Penumbra FF',
@@ -5491,7 +5491,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `penumbra2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['rapidgt'] = {
         ['name'] = 'Rapid GT',
@@ -5501,7 +5501,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rapidgt`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['rapidgt2'] = {
         ['name'] = 'Rapid GT Convertible',
@@ -5511,7 +5511,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rapidgt2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['raptor'] = {
         ['name'] = 'Raptor',
@@ -5521,7 +5521,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `raptor`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['revolter'] = {
         ['name'] = 'Revolter',
@@ -5531,7 +5531,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `revolter`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['ruston'] = {
         ['name'] = 'Ruston',
@@ -5541,7 +5541,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ruston`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['schafter2'] = {
         ['name'] = 'Schafter',
@@ -5561,7 +5561,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schafter3`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['schafter4'] = {
         ['name'] = 'Schafter LWB',
@@ -5571,7 +5571,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schafter4`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['schlagen'] = {                            --DLC
         ['name'] = 'Schlagen GT',
@@ -5581,7 +5581,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schlagen`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['schwarzer'] = {
         ['name'] = 'Schwartzer',
@@ -5591,7 +5591,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schwarzer`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sentinel3'] = {
         ['name'] = 'Sentinel Classic',
@@ -5611,7 +5611,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `seven70`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['specter'] = {
         ['name'] = 'Specter',
@@ -5621,7 +5621,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `specter`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['streiter'] = {
         ['name'] = 'Streiter',
@@ -5631,7 +5631,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `streiter`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sugoi'] = {
         ['name'] = 'Sugoi',
@@ -5641,7 +5641,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sugoi`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sultan'] = {
         ['name'] = 'Sultan',
@@ -5651,7 +5651,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sultan2'] = {
         ['name'] = 'Sultan Custom',
@@ -5661,7 +5661,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['surano'] = {
         ['name'] = 'Surano',
@@ -5671,7 +5671,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `surano`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tampa2'] = {
         ['name'] = 'Drift Tampa',
@@ -5691,7 +5691,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tropos`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['verlierer2'] = {
         ['name'] = 'Verlierer',
@@ -5701,7 +5701,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `verlierer2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['vstr'] = {
         ['name'] = 'V-STR',
@@ -5711,7 +5711,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `vstr`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['italirsx'] = {
         ['name'] = 'Itali RSX',
@@ -5721,7 +5721,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `italirsx`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['zr350'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'ZR350',
@@ -5731,7 +5731,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `zr350`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['calico'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Calico GTF',
@@ -5741,7 +5741,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `calico`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['futo2'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Futo GTX',
@@ -5751,7 +5751,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `futo2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['euros'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Euros',
@@ -5761,7 +5761,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `euros`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['jester4'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Jester RR',
@@ -5771,7 +5771,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester4`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['remus'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Remus',
@@ -5781,7 +5781,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `remus`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['comet6'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Comet S2',
@@ -5791,7 +5791,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet6`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['growler'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Growler',
@@ -5801,7 +5801,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `growler`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['vectre'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Vectre',
@@ -5811,7 +5811,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `vectre`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['cypher'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Cypher',
@@ -5821,7 +5821,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `cypher`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sultan3'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Sultan Classic Custom',
@@ -5831,7 +5831,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan3`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['rt3000'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'RT3000',
@@ -5841,7 +5841,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rt3000`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     --- Sports Classic
     ['ardent'] = {
@@ -5902,7 +5902,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `cheetah2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['deluxo'] = {
         ['name'] = 'Deluxo',
@@ -6273,7 +6273,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `adder`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['autarch'] = {
         ['name'] = 'Autarch',
@@ -6283,7 +6283,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `autarch`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['banshee2'] = {
         ['name'] = 'Banshee 900R',
@@ -6293,7 +6293,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `banshee2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['bullet'] = {
         ['name'] = 'Bullet',
@@ -6303,7 +6303,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `bullet`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['cheetah'] = {
         ['name'] = 'Cheetah',
@@ -6313,7 +6313,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `cheetah`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['cyclone'] = {         --might be too overpowered
         ['name'] = 'Cyclone',
@@ -6323,7 +6323,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `cyclone`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['entity2'] = {
         ['name'] = 'Entity XXR',
@@ -6333,7 +6333,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `entity2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['entityxf'] = {
         ['name'] = 'Entity XF',
@@ -6343,7 +6343,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `entityxf`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['emerus'] = {                            --DLC
         ['name'] = 'Emerus',
@@ -6353,7 +6353,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `emerus`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['fmj'] = {
         ['name'] = 'FMJ',
@@ -6363,7 +6363,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `fmj`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['furia'] = {
         ['name'] = 'Furia',
@@ -6373,7 +6373,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `furia`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['gp1'] = {
         ['name'] = 'GP1',
@@ -6383,7 +6383,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `gp1`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['infernus'] = {
         ['name'] = 'Infernus',
@@ -6393,7 +6393,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `infernus`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['italigtb'] = {
         ['name'] = 'Itali GTB',
@@ -6403,7 +6403,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `italigtb`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['italigtb2'] = {
         ['name'] = 'Itali GTB Custom',
@@ -6413,7 +6413,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `italigtb2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['krieger'] = {                            --DLC
         ['name'] = 'Krieger',
@@ -6423,7 +6423,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `krieger`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['le7b'] = {
         ['name'] = 'RE-7B',
@@ -6433,7 +6433,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `le7b`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['nero'] = {
         ['name'] = 'Nero',
@@ -6443,7 +6443,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `nero`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['nero2'] = {
         ['name'] = 'Nero Custom',
@@ -6453,7 +6453,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `nero2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['osiris'] = {
         ['name'] = 'Osiris',
@@ -6463,7 +6463,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `osiris`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['penetrator'] = {
         ['name'] = 'Penetrator',
@@ -6473,7 +6473,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `penetrator`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['pfister811'] = {
         ['name'] = '811',
@@ -6483,7 +6483,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `pfister811`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['prototipo'] = {
         ['name'] = 'X80 Proto',
@@ -6493,7 +6493,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `prototipo`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['reaper'] = {
         ['name'] = 'Reaper',
@@ -6503,7 +6503,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `reaper`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['s80'] = {                            --DLC
         ['name'] = 'S80RR',
@@ -6513,7 +6513,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `s80`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sc1'] = {
         ['name'] = 'SC1',
@@ -6523,7 +6523,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `sc1`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sheava'] = {                            --DLC
         ['name'] = 'ETR1',
@@ -6533,7 +6533,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `sheava`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sultanrs'] = {
         ['name'] = 'Sultan RS',
@@ -6543,7 +6543,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultanrs`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['t20'] = {
         ['name'] = 'T20',
@@ -6553,7 +6553,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `t20`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['taipan'] = {
         ['name'] = 'Taipan',
@@ -6563,7 +6563,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `taipan`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tempesta'] = {
         ['name'] = 'Tempesta',
@@ -6573,7 +6573,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `tempesta`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tezeract'] = {
         ['name'] = 'Tezeract',
@@ -6583,7 +6583,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `tezeract`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['thrax'] = {                            --DLC
         ['name'] = 'Thrax',
@@ -6593,7 +6593,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `thrax`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tigon'] = {
         ['name'] = 'Tigon',
@@ -6603,7 +6603,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `tigon`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['turismor'] = {
         ['name'] = 'Turismo R',
@@ -6613,7 +6613,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `turismor`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tyrant'] = {
         ['name'] = 'Tyrant',
@@ -6623,7 +6623,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `tyrant`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tyrus'] = {
         ['name'] = 'Tyrus',
@@ -6633,7 +6633,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `tyrus`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['vacca'] = {
         ['name'] = 'Vacca',
@@ -6643,7 +6643,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `vacca`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['vagner'] = {
         ['name'] = 'Vagner',
@@ -6653,7 +6653,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `vagner`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['visione'] = {
         ['name'] = 'Visione',
@@ -6663,7 +6663,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `visione`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['voltic'] = {
         ['name'] = 'Voltic',
@@ -6673,7 +6673,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `voltic`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['voltic2'] = {
         ['name'] = 'Rocket Voltic',
@@ -6683,7 +6683,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `voltic2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['xa21'] = {
         ['name'] = 'XA-21',
@@ -6693,7 +6693,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `xa21`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['zentorno'] = {
         ['name'] = 'Zentorno',
@@ -6703,7 +6703,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `zentorno`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['zorrusso'] = {                            --DLC
         ['name'] = 'Zorrusso',
@@ -6713,7 +6713,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `zorrusso`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     -- Vans
     ['bison'] = {
@@ -6925,7 +6925,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `corsita`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['draugur'] = {
         ['name'] = 'Draugur',
@@ -6965,7 +6965,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `lm87`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['omnisegt'] = {
         ['name'] = 'Omnis e-GT',
@@ -6975,7 +6975,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `omnisegt`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['postlude'] = {
         ['name'] = 'Postlude',
@@ -7015,7 +7015,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sentinel4`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['sm722'] = {
         ['name'] = 'SM722',
@@ -7025,7 +7025,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sm722`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tenf'] = {
         ['name'] = '10F',
@@ -7035,7 +7035,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tenf`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['tenf2'] = {
         ['name'] = '10F Widebody',
@@ -7045,7 +7045,7 @@ QBShared.Vehicles = {
         ['category'] = 'sports',
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tenf2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['torero2'] = {
         ['name'] = 'Torero XO',
@@ -7055,7 +7055,7 @@ QBShared.Vehicles = {
         ['category'] = 'super',
         ['categoryLabel'] = 'Super',
         ['hash'] = `torero2`,
-        ['shop'] = 'luxury',
+        ['shop'] = 'gtalux',
     },
     ['vigero2'] = {
         ['name'] = 'Vigero ZX',
