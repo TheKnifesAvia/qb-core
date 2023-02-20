@@ -1135,5 +1135,7 @@ QBShared.Items = {
 	['fishbait'] 			 		= {['name'] = 'fishbait', 						['label'] = 'Fish Bait', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'fishbait.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Fish bait'},
 	['illegalFishBait'] 			= {['name'] = 'illegalFishBait', 				['label'] = 'Illegal Fish Bait', 		['weight'] = 50, 		['type'] = 'item', 		['image'] = 'illegalFishBait.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Illegal fish bait'},
 
+	-- Police warrant card
+	['warrant_card'] 				 = {['name'] = 'warrant_card', 				  	['label'] = 'Warrant Card', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'warrant_card.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Police Warrant Card'},
 
 }
