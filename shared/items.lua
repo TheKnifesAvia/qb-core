@@ -1325,6 +1325,5 @@ QBShared.Items = {
     ['energypsychic'] = { ['name'] = 'energypsychic', ['label'] = 'energypsychic', ['weight'] = 2, ['type'] = 'item', ['image'] = 'energypsychic.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'energypsychic'},
     ['energywater'] = { ['name'] = 'energywater', ['label'] = 'energywater', ['weight'] = 2, ['type'] = 'item', ['image'] = 'energywater.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'energywater'},
     ['energydoublecolorless'] = { ['name'] = 'energydoublecolorless', ['label'] = 'energydoublecolorless', ['weight'] = 2, ['type'] = 'item', ['image'] = 'energydoublecolorless.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'energydoublecolorless'},
-}
 
 }
