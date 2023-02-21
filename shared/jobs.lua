@@ -741,8 +741,8 @@ QBShared.Jobs = {
             },
         },
     },
-    ['strawberrybennys'] = {
-        label = 'Strawberry Modifications Shop',
+    ['b50visuals'] = {
+        label = 'British 50 Visuals',
         defaultDuty = false,
         grades = {
             ['0'] = {
