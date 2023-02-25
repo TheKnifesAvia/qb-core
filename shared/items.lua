@@ -1139,6 +1139,7 @@ QBShared.Items = {
 	['warrant_card'] 				 = {['name'] = 'warrant_card', 				  	['label'] = 'Warrant Card', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'warrant_card.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Police Warrant Card'},
 
 	-- Pokemon Trading Cards
+	['pokemontcgpack'] = { ['name'] = 'pokemontcgpack', ['label'] = 'Pokemon TCG Pack', ['weight'] = 2, ['type'] = 'item', ['image'] = 'pokemonboosterpack.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'A Pokemon TCG Toy, open it to get a booster pack'},
 	['pokemonboosterpack'] = { ['name'] = 'pokemonboosterpack', ['label'] = 'pokemon booster pack', ['weight'] = 2, ['type'] = 'item', ['image'] = 'pokemonboosterpack.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'pokemon booster pack'},
     ['pokemonalbum'] = { ['name'] = 'pokemonalbum', ['label'] = 'pokemon album', ['weight'] = 2, ['type'] = 'item', ['image'] = 'pokemonalbum.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'pokemon album'},
     ['bulbasaur'] = { ['name'] = 'bulbasaur', ['label'] = 'bulbasaur', ['weight'] = 2, ['type'] = 'item', ['image'] = 'bulbasaur.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'bulbasaur'},
