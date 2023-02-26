@@ -108,6 +108,7 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData.metadata['attachmentcraftingrep'] = PlayerData.metadata['attachmentcraftingrep'] or 0
     PlayerData.metadata['currentapartment'] = PlayerData.metadata['currentapartment'] or nil
     PlayerData.metadata['drugxp'] = PlayerData.metadata['drugxp'] or 0 -- Added for drugs scripts
+    PlayerData.metadata['farmingxp'] = PlayerData.metadata['farmingxp'] or 0 -- Added for farming
     PlayerData.metadata['jobrep'] = PlayerData.metadata['jobrep'] or {}
     PlayerData.metadata['jobrep']['tow'] = PlayerData.metadata['jobrep']['tow'] or 0
     PlayerData.metadata['jobrep']['trucker'] = PlayerData.metadata['jobrep']['trucker'] or 0
