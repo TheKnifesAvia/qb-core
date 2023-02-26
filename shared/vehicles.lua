@@ -2022,7 +2022,17 @@ QBShared.Vehicles = {
 	-- Utility
 
 	-- Boats
-	['squalo'] = {
+	['yacht2'] = {
+		['name'] = 'Red Yacht',
+		['brand'] = 'Red Yacht',
+		['model'] = 'yacht2',
+		['price'] = 450000,
+		['category'] = 'boats',
+		['categoryLabel'] = 'boats',
+		['hash'] = `yacht2`,
+		['shop'] = 'boats',
+	},
+    ['squalo'] = {
 		['name'] = 'Squalo',
 		['brand'] = 'Shitzu',
 		['model'] = 'squalo',
