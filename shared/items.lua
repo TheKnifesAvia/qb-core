@@ -1447,4 +1447,17 @@ QBShared.Items = {
 	-- Drugs
 	['magic_mushroom']          = {['name'] = 'magic_mushroom',             ['label'] = 'Magic Mushroom',           ['weight'] = 20,       	 ['type'] = 'item',      ['image'] = 'magic_mushroom.png',        	['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,    ['combinable'] = nil,   ['description'] = 'A handful of magic mushrooms!'},	
 	['peyote_button']          	= {['name'] = 'peyote_button',             	['label'] = 'Peyote Button',           	['weight'] = 20,       	 ['type'] = 'item',      ['image'] = 'peyote_button.png',        	['unique'] = false,     ['useable'] = true,    	['shouldClose'] = false,    ['combinable'] = nil,   ['description'] = 'A handful of peyote buttons!'},
+
+	-- ATM Robbery
+
+	['nylonrope']        = {['name'] = 'nylonrope',      ['label'] = 'Nylon Rope',     ['weight'] = 500,   ['type'] = 'item',   ['image'] = 'nylonrope.png',    ['unique'] = false,  ['useable'] = true,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'The strongest rope material..'},
+ 	['atmred']         = {['name'] = 'atmred',       ['label'] = 'Red Atm',      ['weight'] = 25000,  ['type'] = 'item',   ['image'] = 'atmred.png',     ['unique'] = true,   ['useable'] = true,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A console of an ATM'},
+ 	['atmblue']          = {['name'] = 'atmblue',       ['label'] = 'Blue Atm',     ['weight'] = 25000,  ['type'] = 'item',   ['image'] = 'atmblue.png',     ['unique'] = true,   ['useable'] = true,  ['shouldClose'] = true,    ["combinable"] = nil,   ['description'] = 'A console of an ATM'},
+ 	['atmgreen']        = {['name'] = 'atmgreen',       ['label'] = 'Green Atm',     ['weight'] = 25000,  ['type'] = 'item',   ['image'] = 'atmgreen.png',    ['unique'] = true,   ['useable'] = true,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A console of an ATM'},
+ 	['atmpanel']        = {['name'] = 'atmpanel',       ['label'] = 'Atm Panel',     ['weight'] = 5000,   ['type'] = 'item',   ['image'] = 'atmpanel.png',    ['unique'] = true,   ['useable'] = false,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A back panel for an ATM'},
+ 	['atmcables']        = {['name'] = 'atmcables',      ['label'] = 'Atm Cables',     ['weight'] = 2000,   ['type'] = 'item',   ['image'] = 'atmcables.png',    ['unique'] = true,   ['useable'] = false,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Cables..'},
+ 	['atmmotherboard']       = {['name'] = 'atmmotherboard',     ['label'] = 'Atm Motherboard',    ['weight'] = 2000,   ['type'] = 'item',   ['image'] = 'atmmotherboard.png',   ['unique'] = true,   ['useable'] = false,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A motherboard for an ATM'},
+ 	['blowtorch']        = {['name'] = 'blowtorch',      ['label'] = 'Blow Torch',     ['weight'] = 1000,   ['type'] = 'item',   ['image'] = 'blowtorch.png',    ['unique'] = true,   ['useable'] = false,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Ooo hot..'},
+  	["laserdrill"]        = {["name"] = "laserdrill",          ["label"] = "Laser Drill",     ["weight"] = 1000,   ["type"] = "item",   ["image"] = "laserdrill.png",    ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "" },
+
 }
