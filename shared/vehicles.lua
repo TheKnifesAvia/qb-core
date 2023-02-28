@@ -3,11 +3,21 @@ QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
     -- PDM/LUX Cars
-	['yzfsm2'] = {
+	['2016ranger'] = {
+		['name'] = 'Ford Ranger',
+		['brand'] = 'Ford',
+		['model'] = '2016ranger',
+		['price'] = 55000,
+		['category'] = 'motorcycles',
+		['categoryLabel'] = 'motorcycles' ,
+		['hash'] = `2016ranger`,
+		['shop'] = 'pdm',
+	},
+    ['yzfsm2'] = {
 		['name'] = 'Yamaha YZF',
 		['brand'] = 'Yamaha',
 		['model'] = 'yzfsm2',
-		['price'] = 75000,
+		['price'] = 45000,
 		['category'] = 'motorcycles',
 		['categoryLabel'] = 'motorcycles' ,
 		['hash'] = `yzfsm2`,
