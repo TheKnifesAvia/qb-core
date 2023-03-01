@@ -3,13 +3,23 @@ QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
     -- PDM/LUX Cars
-	['2016ranger'] = {
+	['evo10'] = {
+		['name'] = 'Mitsubishi Evo X',
+		['brand'] = 'Mitsubishi',
+		['model'] = 'evo10',
+		['price'] = 55000,
+		['category'] = 'sedans',
+		['categoryLabel'] = 'sedans' ,
+		['hash'] = `evo10`,
+		['shop'] = 'pdm',
+	},
+    ['2016ranger'] = {
 		['name'] = 'Ford Ranger',
 		['brand'] = 'Ford',
 		['model'] = '2016ranger',
 		['price'] = 55000,
-		['category'] = 'motorcycles',
-		['categoryLabel'] = 'motorcycles' ,
+		['category'] = 'suvs',
+		['categoryLabel'] = 'suvs' ,
 		['hash'] = `2016ranger`,
 		['shop'] = 'pdm',
 	},
