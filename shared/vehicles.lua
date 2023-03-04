@@ -3,6 +3,16 @@ QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
     -- PDM/LUX Cars
+    ['urus'] = {
+		['name'] = 'Lambourghini Urus',
+		['brand'] = 'Lambourghini',
+		['model'] = 'urus',
+		['price'] = 155000,
+		['category'] = 'suvs',
+		['categoryLabel'] = 'suvs' ,
+		['hash'] = `urus`,
+		['shop'] = 'luxury',
+	},
 	['evo10'] = {
 		['name'] = 'Mitsubishi Evo X',
 		['brand'] = 'Mitsubishi',
