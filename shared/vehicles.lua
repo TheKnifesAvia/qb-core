@@ -23,14 +23,14 @@ QBShared.Vehicles = {
 		['hash'] = `s15drift`,
 		['shop'] = 'pdm',
 	},
-    ['urus'] = {
+    ['murus20'] = {
 		['name'] = 'Lambourghini Urus',
 		['brand'] = 'Lambourghini',
-		['model'] = 'urus',
+		['model'] = 'murus20',
 		['price'] = 155000,
 		['category'] = 'suvs',
 		['categoryLabel'] = 'suvs' ,
-		['hash'] = `urus`,
+		['hash'] = `murus20`,
 		['shop'] = 'luxury',
 	},
 	['evo10'] = {
