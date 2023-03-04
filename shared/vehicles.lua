@@ -3,6 +3,26 @@ QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
     -- PDM/LUX Cars
+    ['nis15'] = {
+		['name'] = 'Nissan Silvia S15',
+		['brand'] = 'Nissan',
+		['model'] = 'nis15',
+		['price'] = 55000,
+		['category'] = 'sedans',
+		['categoryLabel'] = 'sedans' ,
+		['hash'] = `nis15`,
+		['shop'] = 'pdm',
+	},
+    ['s15drift'] = {
+		['name'] = 'Nissan Silvia S15 Drift Spec',
+		['brand'] = 'Nissan',
+		['model'] = 's15drift',
+		['price'] = 75000,
+		['category'] = 'sedans',
+		['categoryLabel'] = 'sedans' ,
+		['hash'] = `s15drift`,
+		['shop'] = 'pdm',
+	},
     ['urus'] = {
 		['name'] = 'Lambourghini Urus',
 		['brand'] = 'Lambourghini',
