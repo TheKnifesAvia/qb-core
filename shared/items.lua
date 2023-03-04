@@ -1460,4 +1460,8 @@ QBShared.Items = {
  	['blowtorch']        = {['name'] = 'blowtorch',      ['label'] = 'Blow Torch',     ['weight'] = 1000,   ['type'] = 'item',   ['image'] = 'blowtorch.png',    ['unique'] = true,   ['useable'] = false,  ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Ooo hot..'},
   	["laserdrill"]        = {["name"] = "laserdrill",          ["label"] = "Laser Drill",     ["weight"] = 1000,   ["type"] = "item",   ["image"] = "laserdrill.png",    ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "" },
 
+	-- Jim Banking
+
+	["payticket"] 					 = {["name"] = "payticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
+
 }
