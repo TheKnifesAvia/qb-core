@@ -365,6 +365,17 @@ QBShared.Vehicles = {
 		['hash'] = `rmodlp670`,
 		['shop'] = 'Casino',
 	},
+    -- Slippers drift toy
+    ['rmodm3e36'] = {
+		['name'] = 'BMW M3 E36 Drift Custom',
+		['brand'] = 'BMW',
+		['model'] = 'rmodm3e36',
+		['price'] = 950000,
+		['category'] = 'sports',
+		['categoryLabel'] = 'sports',
+		['hash'] = `rmodm3e36`,
+		['shop'] = 'slippers',
+	},
 	-- British 50 store vehicles
     ['rmodm4csl'] = {
 		['name'] = 'BMW M4 CSL',
