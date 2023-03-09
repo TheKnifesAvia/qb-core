@@ -13,16 +13,6 @@ QBShared.Vehicles = {
 		['hash'] = `nis15`,
 		['shop'] = 'pdm',
 	},
-    ['s15drift'] = {
-		['name'] = 'Nissan Silvia S15 Drift Spec',
-		['brand'] = 'Nissan',
-		['model'] = 's15drift',
-		['price'] = 75000,
-		['category'] = 'sedans',
-		['categoryLabel'] = 'sedans' ,
-		['hash'] = `s15drift`,
-		['shop'] = 'pdm',
-	},
     ['murus20'] = {
 		['name'] = 'Lambourghini Urus',
 		['brand'] = 'Lambourghini',
