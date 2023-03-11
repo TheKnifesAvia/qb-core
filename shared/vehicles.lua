@@ -3,14 +3,14 @@ QBShared.VehicleHashes = {}
 
 QBShared.Vehicles = {
     -- PDM/LUX Cars
-    ['nis15'] = {
+    ['s15drift'] = {
 		['name'] = 'Nissan Silvia S15',
 		['brand'] = 'Nissan',
-		['model'] = 'nis15',
-		['price'] = 55000,
+		['model'] = 's15drift',
+		['price'] = 75000,
 		['category'] = 'sedans',
 		['categoryLabel'] = 'sedans' ,
-		['hash'] = `nis15`,
+		['hash'] = `s15drift`,
 		['shop'] = 'pdm',
 	},
     ['murus20'] = {
