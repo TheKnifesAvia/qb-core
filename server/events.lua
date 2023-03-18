@@ -150,8 +150,7 @@ end)
 
 -- Player
 
-RegisterNetEvent('QBCore:UpdatePlayer', function(hungerRate, thirstRate)
-    print('Updating Player', hungerRate, thirstRate)
+RegisterNetEvent('QBCore:UpdatePlayer', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     if not Player then return end
@@ -168,6 +167,7 @@ RegisterNetEvent('QBCore:UpdatePlayer', function(hungerRate, thirstRate)
     TriggerClientEvent('hud:client:UpdateNeeds', src, newHunger, newThirst)
     Player.Functions.Save()
 end)
+
 
 RegisterNetEvent('QBCore:ToggleDuty', function()
     local src = source
