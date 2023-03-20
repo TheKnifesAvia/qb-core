@@ -857,6 +857,23 @@ QBShared.Jobs = {
             },
         },
     },
+    ['cityhall'] = {
+        label = 'CityHall',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Government Staff',
+				isboss = false,
+                payment = 100
+            },
+			['1'] = {
+                name = 'Mayor',
+				isboss = true,
+                payment = 120
+            },
+		},
+    },
 }
 
 
