@@ -30,19 +30,19 @@ QBShared.Jobs = {
                 payment = 200
             },
 			['2'] = {
-                name = 'AFO',
+                name = 'RTPC',
                 payment = 230
             },
 			['3'] = {
-                name = 'CID',
+                name = 'CSI',
                 payment = 210
             },
             ['4'] = {
-                name = 'RTPC',
+                name = 'AFO',
                 payment = 220
             },
             ['5'] = {
-                name = 'AFO/NPAS',
+                name = 'NPAS',
                 payment = 230
             },
             ['6'] = {
