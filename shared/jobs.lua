@@ -874,6 +874,23 @@ QBShared.Jobs = {
             },
 		},
     },
+    ['recyclejosh'] = {
+        label = 'Wholesale Recycling',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Picker',
+				isboss = false,
+                payment = 100
+            },
+			['1'] = {
+                name = 'Owner',
+				isboss = true,
+                payment = 120
+            },
+		},
+    },
 }
 
 
