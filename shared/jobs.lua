@@ -875,7 +875,7 @@ QBShared.Jobs = {
 		},
     },
     ['recyclejosh'] = {
-        label = 'Wholesale Recycling',
+        label = 'Wilkinson Recycling Services',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
