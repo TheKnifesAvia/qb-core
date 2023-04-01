@@ -8,93 +8,63 @@ QBShared.Gangs = {
             },
         },
 	},
-	['lostmc'] = {
-		label = 'The Lost MC',
-		grades = {
-            ['0'] = {
-                name = 'Recruit'
-            },
-			['1'] = {
-                name = 'Enforcer'
-            },
-			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
-            },
-        },
-	},
-	['ballas'] = {
-		label = 'Ballas',
-		grades = {
-            ['0'] = {
-                name = 'Recruit'
-            },
-			['1'] = {
-                name = 'Enforcer'
-            },
-			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
-            },
-        },
-	},
-	['vagos'] = {
-		label = 'Vagos',
-		grades = {
-            ['0'] = {
-                name = 'Recruit'
-            },
-			['1'] = {
-                name = 'Enforcer'
-            },
-			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
-            },
-        },
-	},
 	['cartel'] = {
 		label = 'Cartel',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Gangster'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Original Gangster'
             },
 			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
+                name = 'Leader',
+                isboss = true
             },
         },
 	},
-	['families'] = {
-		label = 'Families',
+	['kingsman'] = {
+		label = 'Kingsmen',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Gangster'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Original Gangster'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Leader',
+                isboss = true
             },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
+        },
+	},
+	['ghosts'] = {
+		label = 'Ghosts',
+		grades = {
+            ['0'] = {
+                name = 'Gangster'
+            },
+			['1'] = {
+                name = 'Original Gangster'
+            },
+			['2'] = {
+                name = 'Leader',
+                isboss = true
+            },
+        },
+	},
+	['hitsquad'] = {
+		label = 'Hitsquad',
+		grades = {
+            ['0'] = {
+                name = 'Gangster'
+            },
+			['1'] = {
+                name = 'Original Gangster'
+            },
+			['2'] = {
+                name = 'Leader',
+                isboss = true
             },
         },
 	},
