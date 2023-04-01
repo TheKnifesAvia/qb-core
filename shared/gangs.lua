@@ -102,17 +102,14 @@ QBShared.Gangs = {
 		label = 'Triads',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Gangster'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Original Gangster'
             },
 			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
-				isboss = true
+                name = 'Leader',
+                isboss = true
             },
         },
 	}
