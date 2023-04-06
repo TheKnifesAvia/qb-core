@@ -924,6 +924,14 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
         },
 	},
+    ['triads'] = {
+		label = "Triads Records",
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Manager', isboss = true, payment = 100 },
+        },
+	},
 }
 
 
