@@ -97,6 +97,7 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData.metadata['tracker'] = PlayerData.metadata['tracker'] or false
     PlayerData.metadata['injail'] = PlayerData.metadata['injail'] or 0
     PlayerData.metadata['jailitems'] = PlayerData.metadata['jailitems'] or {}
+    PlayerData.metadata['gameitems'] = PlayerData.metadata['gameitems'] or {}
     PlayerData.metadata['status'] = PlayerData.metadata['status'] or {}
     PlayerData.metadata['phone'] = PlayerData.metadata['phone'] or {}
     PlayerData.metadata['fitbit'] = PlayerData.metadata['fitbit'] or {}
@@ -106,6 +107,8 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData.metadata['craftingrep'] = PlayerData.metadata['craftingrep'] or 0
     PlayerData.metadata['attachmentcraftingrep'] = PlayerData.metadata['attachmentcraftingrep'] or 0
     PlayerData.metadata['currentapartment'] = PlayerData.metadata['currentapartment'] or nil
+    PlayerData.metadata['drugxp'] = PlayerData.metadata['drugxp'] or 0 -- Added for drugs scripts
+    PlayerData.metadata['farmingxp'] = PlayerData.metadata['farmingxp'] or 0 -- Added for farming
     PlayerData.metadata['jobrep'] = PlayerData.metadata['jobrep'] or {}
     PlayerData.metadata['jobrep']['tow'] = PlayerData.metadata['jobrep']['tow'] or 0
     PlayerData.metadata['jobrep']['trucker'] = PlayerData.metadata['jobrep']['trucker'] or 0
@@ -292,6 +295,15 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         if not self.Offline then
             self.Functions.UpdatePlayerData()
             if amount > 100000 then
+
+                exports.oxmysql:insert('INSERT INTO economy_logs (citizenid, type, money, day, reason) VALUES (:citizenid, :type, :money, :day, :reason)', {
+                    citizenid = PlayerData.citizenid,
+                    type = moneytype,
+                    money = amount,
+                    day = os.date('!%Y-%m-%dT%H:%M:%S'),
+                    reason = "Added",
+                })         
+
                 TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'AddMoney', 'lightgreen', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') added, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason, true)
             else
                 TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'AddMoney', 'lightgreen', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') added, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason)
@@ -322,6 +334,15 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         if not self.Offline then
             self.Functions.UpdatePlayerData()
             if amount > 100000 then
+
+                exports.oxmysql:insert('INSERT INTO economy_logs (citizenid, type, money, day, reason) VALUES (:citizenid, :type, :money, :day, :reason)', {
+                    citizenid = PlayerData.citizenid,
+                    type = moneytype,
+                    money = amount,
+                    day = os.date('!%Y-%m-%dT%H:%M:%S'),
+                    reason = "Removed",
+        })        
+
                 TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'RemoveMoney', 'red', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') removed, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason, true)
             else
                 TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'RemoveMoney', 'red', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') removed, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason)
@@ -348,6 +369,15 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
 
         if not self.Offline then
             self.Functions.UpdatePlayerData()
+
+            exports.oxmysql:insert('INSERT INTO economy_logs (citizenid, type, money, day, reason) VALUES (:citizenid, :type, :money, :day, :reason)', {
+                citizenid = PlayerData.citizenid,
+                type = moneytype,
+                money = amount,
+                day = os.date('!%Y-%m-%dT%H:%M:%S'),
+                reason = "Setted",
+                })    
+
             TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'SetMoney', 'green', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') set, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason)
             TriggerClientEvent('hud:client:OnMoneyChange', self.PlayerData.source, moneytype, math.abs(difference), difference < 0)
             TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "set", reason)

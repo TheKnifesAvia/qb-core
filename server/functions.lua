@@ -214,6 +214,7 @@ function PaycheckInterval()
                                 TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('error.company_too_poor'), 'error')
                             else
                                 Player.Functions.AddMoney('bank', payment)
+                                TriggerEvent('ap-government:server:systemTax', Player.PlayerData.source, "Player", payment)
                                 exports['qb-management']:RemoveMoney(Player.PlayerData.job.name, payment)
                                 TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
                             end
@@ -413,4 +414,17 @@ end
 
 function QBCore.Functions.Notify(source, text, type, length)
     TriggerClientEvent('QBCore:Notify', source, text, type, length)
+end
+
+--- SQL Pattern Matching
+function QBCore.Functions.PrepForSQL(source,data,pattern)
+    data = tostring(data)
+    local src = source
+    local player = QBCore.Functions.GetPlayer(src)
+    local result = string.match(data, pattern)
+    if not result or string.len(result) ~= string.len(data)  then
+        TriggerEvent('qb-log:server:CreateLog', 'anticheat', 'SQL Exploit Attempted', 'red', string.format('%s attempted to exploit SQL!', player.PlayerData.license))
+        return false
+    end
+    return true
 end
